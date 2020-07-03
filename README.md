@@ -4,7 +4,8 @@
 
 - [Âmbito](#âmbito)
 - [Visão Geral](#visão-geral)
-- [Ferramentas](#ferramentas)
+- [Ferramentas](#ferramentas) - [Documentação](#documentação) - [Comunicação](#comunicação) - [Controlo de Versões](#controlo-de-versões) - [Gestão da Empresa](#gestão-de-empresa) - [Aplicação Web](#aplicação-web)
+- [Autores](#autores)
 
 ## Âmbito
 
@@ -24,11 +25,11 @@ Visão geral do projeto
 
 - [MS Teams](https://teams.microsoft.com/) - Comunicação entre os membros da equipa
 
-### Controlo de versões
+### Controlo de Versões
 
 - [GitHub](https://github.com/) - Controlo de versões
 
-### Gestão da
+### Gestão da Empresa
 
 - [Primavera ERP](https://pt.primaverabss.com/pt/) - ERP utilizado
 - [VirtualBox](https://www.virtualbox.org/) - Virtualização da máquina da empresa
