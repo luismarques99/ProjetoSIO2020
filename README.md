@@ -2,8 +2,9 @@
 
 ## Tabela de Conteúdos
 
-* [Âmbito](#ambito)
-* [Visão Geral](#visao-geral)
+- [Âmbito](#âmbito)
+- [Visão Geral](#visão-geral)
+- [Ferramentas](#ferramentas)
 
 ## Âmbito
 
