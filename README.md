@@ -4,9 +4,14 @@
 
 - [Âmbito](#âmbito)
 - [Visão Geral](#visão-geral)
-- [Ferramentas](#ferramentas) - [Documentação](#documentação) - [Comunicação](#comunicação) - [Controlo de Versões](#controlo-de-versões) - [Gestão da Empresa](#gestão-de-empresa) - [Aplicação Web](#aplicação-web)
+- [Ferramentas](#ferramentas)
+	- [Documentação](#documentação)
+	- [Comunicação](#comunicação)
+	- [Controlo de Versões](#controlo-de-versões)
+	- [Gestão da Empresa](#gestão-de-empresa)
+	- [Aplicação Web](#aplicação-web)
 - [Autores](#autores)
-
+	
 ## Âmbito
 
 Repositório para desenvolvimento do projeto de SIO relativo à Época de Recurso 2020
