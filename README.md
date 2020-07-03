@@ -1,22 +1,21 @@
-# ProjetoSIO2020
+# Tech4You
 
 ## Tabela de Conteúdos
 
-- [ProjetoSIO2020](#projetosio2020)
-	- [Tabela de Conteúdos](#tabela-de-conteúdos)
-	- [Âmbito](#âmbito)
-	- [Visão Geral](#visão-geral)
-	- [Ferramentas](#ferramentas)
-		- [Documentação](#documentação)
-		- [Comunicação](#comunicação)
-		- [Controlo de Versões](#controlo-de-versões)
-		- [Gestão da Empresa](#gestão-da-empresa)
-		- [Aplicação Web](#aplicação-web)
-	- [Autores](#autores)
+- [Tabela de Conteúdos](#tabela-de-conteúdos)
+- [Âmbito](#âmbito)
+- [Visão Geral](#visão-geral)
+- [Ferramentas](#ferramentas)
+	- [Documentação](#documentação)
+	- [Comunicação](#comunicação)
+	- [Controlo de Versões](#controlo-de-versões)
+	- [Gestão da Empresa](#gestão-da-empresa)
+	- [Aplicação Web](#aplicação-web)
+- [Autores](#autores)
 	
 ## Âmbito
 
-Repositório para desenvolvimento do projeto de SIO relativo à Época de Recurso 2020
+Projeto realizado na época de recurso de 2020 no âmbito da unidade curricular de **Sistemas de Informação Organizacionais** da **Licenciatura em Engenharia Informática** da **Escola Superior de Tecnologia e Gestão - P.Porto**.
 
 ## Visão Geral
 
