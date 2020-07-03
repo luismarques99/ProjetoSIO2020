@@ -2,14 +2,14 @@
 
 ## Tabela de Conteúdos
 
-*[Âmbito](#ambito)
-*[Visão Geral](#visao-geral)
+* [Âmbito](#ambito)
+* [Visão Geral](#visao-geral)
 
 ## Âmbito
 
 Repositório para desenvolvimento do projeto de SIO relativo à Época de Recurso 2020
 
-## Visaão Geral
+## Visão Geral
 
 Visão geral do projeto
 
