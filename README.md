@@ -29,7 +29,8 @@ Visão geral do projeto
 
 ### Comunicação
 
-- [MS Teams](https://teams.microsoft.com/) - Comunicação entre os membros da equipa
+- [Facebook Messenger](https://www.messenger.com/) - Comunicação informal entre os membros da equipa
+- [MS Teams](https://teams.microsoft.com/) - Comunicação formal entre os membros da equipa
 
 ### Controlo de Versões
 
