@@ -11,7 +11,6 @@ const findAll = async (req, res, next) => {
 
 const findById = async (req, res, next) => {
 	const file = await SaftFile.findById(req.params.fileId).catch(next);
-	// res.json(file);
 	res.json({
 		status: "Success",
 		message: "Saft file found",
