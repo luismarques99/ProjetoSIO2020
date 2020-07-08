@@ -23,7 +23,6 @@ mongoose
 		console.log(err);
 	});
 
-// TODO: Imprimir mensagem de erro
-// mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection error:'));
+mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 module.exports = mongoose;

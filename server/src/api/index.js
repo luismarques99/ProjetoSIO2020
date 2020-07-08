@@ -1,11 +1,9 @@
 const express = require("express");
 
+const saftFileRoutes = require("./routes/saftFileRoutes");
+
 const apiRouter = express.Router();
 
-apiRouter.get("/", (req, res) => {
-	res.send({
-		status: "ok"
-	});
-});
+apiRouter.use("/saftFiles", saftFileRoutes);
 
 module.exports = apiRouter;
