@@ -1,15 +1,6 @@
 const mongoose = require("mongoose");
 
 const saftFileSchema = new mongoose.Schema({
-	name: {
-		type: String
-	},
-	nif: {
-		type: Number
-	},
-	array: {
-		type: []
-	},
 	Header: {
 		type: []
 	},
@@ -17,6 +8,9 @@ const saftFileSchema = new mongoose.Schema({
 		type: []
 	},
 	GeneralLedgerEntries: {
+		type: []
+	},
+	SourceDocuments: {
 		type: []
 	}
 });
