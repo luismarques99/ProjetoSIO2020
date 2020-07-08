@@ -1,0 +1,2320 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:PT_1.04_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:OECD:StandardAuditFile-Tax:PT_1.04_01 ../schemas/SAF-T.xsd" xmlns:doc="urn:schemas-basda-org:schema-extensions:documentation">
+	<Header>
+		<AuditFileVersion>1.04_01</AuditFileVersion>
+		<CompanyID>506426670</CompanyID>
+		<TaxRegistrationNumber>506426670</TaxRegistrationNumber>
+		<TaxAccountingBasis>I</TaxAccountingBasis>
+		<CompanyName>Tech4You</CompanyName>
+		<CompanyAddress>
+			<BuildingNumber>857</BuildingNumber>
+			<StreetName>Rua do Curral</StreetName>
+			<AddressDetail>Rua do Curral, 857</AddressDetail>
+			<City>Margaride</City>
+			<PostalCode>4610-156</PostalCode>
+			<Region>Porto</Region>
+			<Country>PT</Country>
+		</CompanyAddress>
+		<FiscalYear>2020</FiscalYear>
+		<StartDate>2020-01-01</StartDate>
+		<EndDate>2020-12-31</EndDate>
+		<CurrencyCode>EUR</CurrencyCode>
+		<DateCreated>2020-07-08</DateCreated>
+		<TaxEntity>Sede</TaxEntity>
+		<ProductCompanyTaxID>503140600</ProductCompanyTaxID>
+		<SoftwareCertificateNumber>0030</SoftwareCertificateNumber>
+		<ProductID>ERP v750/PRIMAVERA Business Software Solutions</ProductID>
+		<ProductVersion>09.1507.1039</ProductVersion>
+		<Telephone>255314002</Telephone>
+		<Fax>255314120</Fax>
+		<Email>geral@tech4you.com</Email>
+		<Website>www.tech4you.com</Website>
+	</Header>
+	<MasterFiles>
+		<GeneralLedgerAccounts>
+			<TaxonomyReference>S</TaxonomyReference>
+			<Account>
+				<AccountID>21</AccountID>
+				<AccountDescription>Clientes</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>35361.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>211</AccountID>
+				<AccountDescription>Clientes c/c</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>35361.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>21</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2111</AccountID>
+				<AccountDescription>Clientes gerais</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>35361.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>211</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>21111</AccountID>
+				<AccountDescription>Clientes - gr - mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>35361.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2111</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>211110004</AccountID>
+				<AccountDescription>FNAC</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>17828.79</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110006</AccountID>
+				<AccountDescription>Chip7</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>8560.22</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110007</AccountID>
+				<AccountDescription>Eletrofun</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>8972.69</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>22</AccountID>
+				<AccountDescription>Fornecedores</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>52963.26</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>221</AccountID>
+				<AccountDescription>Fornecedores c/c</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>52963.26</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>22</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2211</AccountID>
+				<AccountDescription>Fornecedores gerais</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>52963.26</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>221</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>22111</AccountID>
+				<AccountDescription>Fornecedores - gr - mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>52963.26</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2211</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>221110001</AccountID>
+				<AccountDescription>Asus</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>9249.54</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110003</AccountID>
+				<AccountDescription>Samsung</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>3505.32</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110005</AccountID>
+				<AccountDescription>Apple</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>25807.86</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110006</AccountID>
+				<AccountDescription>Intel</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>5411.89</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110007</AccountID>
+				<AccountDescription>AMD</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>4206.46</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110008</AccountID>
+				<AccountDescription>Razer</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>2445.46</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110010</AccountID>
+				<AccountDescription>Corsair</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>2336.73</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>24</AccountID>
+				<AccountDescription>Estado e outros entes públicos</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>243</AccountID>
+				<AccountDescription>Imposto sobre o valor acrescentado (IVA)</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2432</AccountID>
+				<AccountDescription>Iva - Dedutível</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24321</AccountID>
+				<AccountDescription>Existências</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2432</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>243211</AccountID>
+				<AccountDescription>Existências Continente</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24321</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2432113</AccountID>
+				<AccountDescription>Ex. - Taxa Normal</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243211</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>243211323</AccountID>
+				<AccountDescription>Ex. - Taxa Normal-Tx.23%</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2432113</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2432113231</AccountID>
+				<AccountDescription>Ex. - Tx. Nm. - Mercado Nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243211323</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24321132311</AccountID>
+				<AccountDescription>Ex. Tx. Nm.- MN-TT/Dedutível</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>9903.70</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>2432113231</GroupingCode>
+				<TaxonomyCode>74</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>2433</AccountID>
+				<AccountDescription>Iva - Liquidado</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24331</AccountID>
+				<AccountDescription>Operacoes Gerais</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2433</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>243311</AccountID>
+				<AccountDescription>Iva Liq. - Vendas</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24331</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2433111</AccountID>
+				<AccountDescription>Iva Liq. - Vendas-Continente</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243311</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24331113</AccountID>
+				<AccountDescription>Iva Liq. - Taxa Normal</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2433111</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2433111323</AccountID>
+				<AccountDescription>Iva Liq. - Taxa Normal-Tx.23%</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24331113</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24331113231</AccountID>
+				<AccountDescription>Iva Liq.- Tx. Nm.- Mercado Nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>6612.35</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>2433111323</GroupingCode>
+				<TaxonomyCode>75</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>31</AccountID>
+				<AccountDescription>Compras</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>43059.56</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>311</AccountID>
+				<AccountDescription>Mercadorias</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>43059.56</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>31</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>3111</AccountID>
+				<AccountDescription>Compras-merc.-mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>43059.56</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>311</GroupingCode>
+				<TaxonomyCode>156</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>71</AccountID>
+				<AccountDescription>Vendas</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>28749.35</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>711</AccountID>
+				<AccountDescription>Mercadorias</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>28749.35</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>71</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>7111</AccountID>
+				<AccountDescription>Vendas-merc.-mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>28749.35</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>711</GroupingCode>
+				<TaxonomyCode>506</TaxonomyCode>
+			</Account>
+		</GeneralLedgerAccounts>
+		<Customer>
+			<CustomerID>Consumidor final</CustomerID>
+			<AccountID>Desconhecido</AccountID>
+			<CustomerTaxID>999999990</CustomerTaxID>
+			<CompanyName>Consumidor final</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Desconhecido</AddressDetail>
+				<City>Desconhecido</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>Desconhecido</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Desconhecido</AddressDetail>
+				<City>Desconhecido</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>Desconhecido</Country>
+			</ShipToAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT509686435_C</CustomerID>
+			<AccountID>211110001</AccountID>
+			<CustomerTaxID>509686435</CustomerTaxID>
+			<CompanyName>PCDiga CO.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Travessa da Baquelite</AddressDetail>
+				<City>Leiria</City>
+				<PostalCode>2415-611</PostalCode>
+				<Region>Leiria</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Travessa da Baquelite</AddressDetail>
+				<City>Leiria</City>
+				<PostalCode>2415-611</PostalCode>
+				<Region>Leiria</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>304500600</Telephone>
+			<Website>www.pcdiga.com</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT500719225_C</CustomerID>
+			<AccountID>211110003</AccountID>
+			<CustomerTaxID>500719225</CustomerTaxID>
+			<CompanyName>Worten SA.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua João Mendonça</AddressDetail>
+				<City>Matosinhos</City>
+				<PostalCode>4450-393</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua João Mendonça</AddressDetail>
+				<City>Matosinhos</City>
+				<PostalCode>4450-393</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>808100102</Telephone>
+			<Website>www.worten.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT504273523_C</CustomerID>
+			<AccountID>211110004</AccountID>
+			<CustomerTaxID>504273523</CustomerTaxID>
+			<CompanyName>Fnac</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Senhora da Hora</AddressDetail>
+				<City>Matosinhos</City>
+				<PostalCode>4460-841</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Senhora da Hora</AddressDetail>
+				<City>Matosinhos</City>
+				<PostalCode>4460-841</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>707313435</Telephone>
+			<Website>www.fnac.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT509804934_C</CustomerID>
+			<AccountID>211110006</AccountID>
+			<CustomerTaxID>509804934</CustomerTaxID>
+			<CompanyName>Chip7</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua Nova de Santa Cruz</AddressDetail>
+				<City>Braga</City>
+				<PostalCode>4710-409</PostalCode>
+				<Region>Braga</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua Nova de Santa Cruz</AddressDetail>
+				<City>Braga</City>
+				<PostalCode>4710-409</PostalCode>
+				<Region>Braga</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>253678244</Telephone>
+			<Website>lojabraga-uminho@chip7.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT500947007_C</CustomerID>
+			<AccountID>211110007</AccountID>
+			<CustomerTaxID>500947007</CustomerTaxID>
+			<CompanyName>Eletrofun</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua Soares dos Reis</AddressDetail>
+				<City>Vila Nova de Gaia</City>
+				<PostalCode>4400-315</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua Soares dos Reis</AddressDetail>
+				<City>Vila Nova de Gaia</City>
+				<PostalCode>4400-315</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>707011964</Telephone>
+			<Website>info@eletrofun.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT511108591_C</CustomerID>
+			<AccountID>211110009</AccountID>
+			<CustomerTaxID>511108591</CustomerTaxID>
+			<CompanyName>Prinfor SA.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Estrada da Circunvalação</AddressDetail>
+				<City>Porto</City>
+				<PostalCode>4200-163</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Estrada da Circunvalação</AddressDetail>
+				<City>Porto</City>
+				<PostalCode>4200-163</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>255561407</Telephone>
+			<Website>www.prinfor.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Supplier>
+			<SupplierID>509792154_F</SupplierID>
+			<AccountID>221110001</AccountID>
+			<SupplierTaxID>509792154</SupplierTaxID>
+			<CompanyName>Asus</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Parque Industrial de Coimbroes</AddressDetail>
+				<City>Sao João de Lourosa</City>
+				<PostalCode>3501</PostalCode>
+				<Region>Viseu</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Parque Industrial de Coimbroes</AddressDetail>
+				<City>Sao João de Lourosa</City>
+				<PostalCode>3501</PostalCode>
+				<Region>Viseu</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 505 677 139</Telephone>
+			<Website>www.asus.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>501332979_F</SupplierID>
+			<AccountID>221110010</AccountID>
+			<SupplierTaxID>501332979</SupplierTaxID>
+			<CompanyName>Corsair</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua Miguel Bombarda</AddressDetail>
+				<City>Cedofeita</City>
+				<PostalCode>4100</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua Miguel Bombarda</AddressDetail>
+				<City>Cedofeita</City>
+				<PostalCode>4100</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 25 567 1899</Telephone>
+			<Website>www.corsair.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>511171803_F</SupplierID>
+			<AccountID>221110003</AccountID>
+			<SupplierTaxID>511171803</SupplierTaxID>
+			<CompanyName>Samsung</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua do Paraiso</AddressDetail>
+				<City>Porto</City>
+				<PostalCode>4000</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua do Paraiso</AddressDetail>
+				<City>Porto</City>
+				<PostalCode>4000</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 255 089 761</Telephone>
+			<Website>www.sasung.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>506345661_F</SupplierID>
+			<AccountID>221110004</AccountID>
+			<SupplierTaxID>506345661</SupplierTaxID>
+			<CompanyName>HP Inc.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua da Liberdade</AddressDetail>
+				<City>Alenquer</City>
+				<PostalCode>2580</PostalCode>
+				<Region>Lisboa</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua da Liberdade</AddressDetail>
+				<City>Alenquer</City>
+				<PostalCode>2580</PostalCode>
+				<Region>Lisboa</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 21 345 9809</Telephone>
+			<Website>www.hp.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>504148427_F</SupplierID>
+			<AccountID>221110005</AccountID>
+			<SupplierTaxID>504148427</SupplierTaxID>
+			<CompanyName>Apple</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Senhora da Hora</AddressDetail>
+				<City>Matosinhos</City>
+				<PostalCode>4460</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Senhora da Hora</AddressDetail>
+				<City>Matosinhos</City>
+				<PostalCode>4460</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 22 957 1300</Telephone>
+			<Website>www.apple.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>500607648_F</SupplierID>
+			<AccountID>221110006</AccountID>
+			<SupplierTaxID>500607648</SupplierTaxID>
+			<CompanyName>Intel</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Avenida de Portugal</AddressDetail>
+				<City>Carnaxide</City>
+				<PostalCode>2790</PostalCode>
+				<Region>Lisboa</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Avenida de Portugal</AddressDetail>
+				<City>Carnaxide</City>
+				<PostalCode>2790</PostalCode>
+				<Region>Lisboa</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 21 503 3498</Telephone>
+			<Website>www.intel.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>502647671_F</SupplierID>
+			<AccountID>221110007</AccountID>
+			<SupplierTaxID>502647671</SupplierTaxID>
+			<CompanyName>AMD</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua da Epadaneira</AddressDetail>
+				<City>Sao Bartolomeu</City>
+				<PostalCode>3000</PostalCode>
+				<Region>Coimbra</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua da Epadaneira</AddressDetail>
+				<City>Sao Bartolomeu</City>
+				<PostalCode>3000</PostalCode>
+				<Region>Coimbra</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 25 508 9761</Telephone>
+			<Website>www.amd.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>502082119_F</SupplierID>
+			<AccountID>221110008</AccountID>
+			<SupplierTaxID>502082119</SupplierTaxID>
+			<CompanyName>Razer</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Beco da Moleira</AddressDetail>
+				<City>Barreira</City>
+				<PostalCode>2410</PostalCode>
+				<Region>Leiria</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Beco da Moleira</AddressDetail>
+				<City>Barreira</City>
+				<PostalCode>2410</PostalCode>
+				<Region>Leiria</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 25 503 6141</Telephone>
+			<Website>www.razer.com.pt</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>504946501_F</SupplierID>
+			<AccountID>221110009</AccountID>
+			<SupplierTaxID>504946501</SupplierTaxID>
+			<CompanyName>NVIDIA Co.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Avenida da Recuperação</AddressDetail>
+				<City>Monte Real</City>
+				<PostalCode>2426</PostalCode>
+				<Region>Leiria</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Avenida da Recuperação</AddressDetail>
+				<City>Monte Real</City>
+				<PostalCode>2426</PostalCode>
+				<Region>Leiria</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 25 512 0516</Telephone>
+			<Website>www.nvidia.com</Website>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0001</ProductCode>
+			<ProductGroup>Portateis</ProductGroup>
+			<ProductDescription>Macbook Pro 13</ProductDescription>
+			<ProductNumberCode>A0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00010</ProductCode>
+			<ProductGroup>CPU</ProductGroup>
+			<ProductDescription>Intel Core i7-9700K</ProductDescription>
+			<ProductNumberCode>A00010</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00011</ProductCode>
+			<ProductGroup>CPU</ProductGroup>
+			<ProductDescription>Intel Core i9-9900K</ProductDescription>
+			<ProductNumberCode>A00011</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00012</ProductCode>
+			<ProductGroup>CPU</ProductGroup>
+			<ProductDescription>AMD Ryzen 7 3700x</ProductDescription>
+			<ProductNumberCode>A00012</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00013</ProductCode>
+			<ProductGroup>Perifericos</ProductGroup>
+			<ProductDescription>Razer Naga Trinity Gaming Mouse</ProductDescription>
+			<ProductNumberCode>A00013</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00014</ProductCode>
+			<ProductGroup>Perifericos</ProductGroup>
+			<ProductDescription>Razer Viper Mini Ultralight</ProductDescription>
+			<ProductNumberCode>A00014</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00015</ProductCode>
+			<ProductGroup>Perifericos</ProductGroup>
+			<ProductDescription>Razer Cynosa Chroma Gaming</ProductDescription>
+			<ProductNumberCode>A00015</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00016</ProductCode>
+			<ProductGroup>Perifericos</ProductGroup>
+			<ProductDescription>Razer Kraken Gaming Headset</ProductDescription>
+			<ProductNumberCode>A00016</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00017</ProductCode>
+			<ProductGroup>Portateis</ProductGroup>
+			<ProductDescription>ROG Zephyrus DUO 15</ProductDescription>
+			<ProductNumberCode>A00017</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A00019</ProductCode>
+			<ProductGroup>Discos Internos</ProductGroup>
+			<ProductDescription>Samsung 970 Evo Plus SSD 1TB - M.2 NVMe</ProductDescription>
+			<ProductNumberCode>A00019</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0002</ProductCode>
+			<ProductGroup>Portateis</ProductGroup>
+			<ProductDescription>Macbook Air 13</ProductDescription>
+			<ProductNumberCode>A0002</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0003</ProductCode>
+			<ProductGroup>RAM</ProductGroup>
+			<ProductDescription>Corsair Vengeance RGB Pro 16GB</ProductDescription>
+			<ProductNumberCode>A0003</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0004</ProductCode>
+			<ProductGroup>RAM</ProductGroup>
+			<ProductDescription>TridentZ RGB Series 16GB</ProductDescription>
+			<ProductNumberCode>A0004</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0005</ProductCode>
+			<ProductGroup>RAM</ProductGroup>
+			<ProductDescription>TEAMGROUP T-Force Vulcan Z 16GB</ProductDescription>
+			<ProductNumberCode>A0005</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0006</ProductCode>
+			<ProductGroup>Portateis</ProductGroup>
+			<ProductDescription>Omen Laptop 15</ProductDescription>
+			<ProductNumberCode>A0006</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0007</ProductCode>
+			<ProductGroup>Placas Gráficas</ProductGroup>
+			<ProductDescription>NVIDIA Geforce GTX 1060Ti</ProductDescription>
+			<ProductNumberCode>A0007</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>A0008</ProductCode>
+			<ProductGroup>Placas Gráficas</ProductGroup>
+			<ProductDescription>NVIDIA Geforce RTX 2060</ProductDescription>
+			<ProductNumberCode>A0008</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>O</ProductType>
+			<ProductCode>Especial</ProductCode>
+			<ProductGroup>Sem família</ProductGroup>
+			<ProductDescription>Linha especial</ProductDescription>
+			<ProductNumberCode>Especial</ProductNumberCode>
+		</Product>
+		<TaxTable>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isenta</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>4.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>RED</TaxCode>
+				<Description>Reduzida</Description>
+				<TaxPercentage>5.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>RED</TaxCode>
+				<Description>Reduzida</Description>
+				<TaxPercentage>6.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>9.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>INT</TaxCode>
+				<Description>Intermédia</Description>
+				<TaxPercentage>12.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>INT</TaxCode>
+				<Description>Intermédia</Description>
+				<TaxPercentage>13.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>15.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>22.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>NOR</TaxCode>
+				<Description>Normal</Description>
+				<TaxPercentage>23.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>23.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isenta</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>4.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>9.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>16.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isenta</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>5.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>12.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>22.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IS</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isento</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+		</TaxTable>
+	</MasterFiles>
+	<GeneralLedgerEntries>
+		<NumberOfEntries>10</NumberOfEntries>
+		<TotalDebit>88324.96</TotalDebit>
+		<TotalCredit>88324.96</TotalCredit>
+		<Journal>
+			<JournalID>00041</JournalID>
+			<Description>Compras - MN</Description>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70001</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 12/B</Description>
+				<DocArchivalNumber>70001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110003</AccountID>
+						<SourceDocumentID>VFA B/12</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:46:31</SystemEntryDate>
+						<Description>VFA Nº 12/B</Description>
+						<CreditAmount>3505.32</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/12</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:46:31</SystemEntryDate>
+						<Description>VFA Nº 12/B</Description>
+						<DebitAmount>2849.85</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/12</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:46:31</SystemEntryDate>
+						<Description>VFA Nº 12/B</Description>
+						<DebitAmount>655.47</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70002</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 13/B</Description>
+				<DocArchivalNumber>70002</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110005</AccountID>
+						<SourceDocumentID>VFA B/13</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:51:24</SystemEntryDate>
+						<Description>VFA Nº 13/B</Description>
+						<CreditAmount>25807.86</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/13</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:51:24</SystemEntryDate>
+						<Description>VFA Nº 13/B</Description>
+						<DebitAmount>20982.00</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/13</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:51:24</SystemEntryDate>
+						<Description>VFA Nº 13/B</Description>
+						<DebitAmount>4825.86</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70003</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 14/B</Description>
+				<DocArchivalNumber>70003</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110006</AccountID>
+						<SourceDocumentID>VFA B/14</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:53:45</SystemEntryDate>
+						<Description>VFA Nº 14/B</Description>
+						<CreditAmount>5411.89</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/14</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:53:45</SystemEntryDate>
+						<Description>VFA Nº 14/B</Description>
+						<DebitAmount>4399.91</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/14</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:53:45</SystemEntryDate>
+						<Description>VFA Nº 14/B</Description>
+						<DebitAmount>1011.98</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70004</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 15/B</Description>
+				<DocArchivalNumber>70004</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110007</AccountID>
+						<SourceDocumentID>VFA B/15</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:58:57</SystemEntryDate>
+						<Description>VFA Nº 15/B</Description>
+						<CreditAmount>4206.46</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/15</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:58:57</SystemEntryDate>
+						<Description>VFA Nº 15/B</Description>
+						<DebitAmount>3419.89</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/15</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T14:58:57</SystemEntryDate>
+						<Description>VFA Nº 15/B</Description>
+						<DebitAmount>786.57</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70005</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 16/B</Description>
+				<DocArchivalNumber>70005</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110008</AccountID>
+						<SourceDocumentID>VFA B/16</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:02:07</SystemEntryDate>
+						<Description>VFA Nº 16/B</Description>
+						<CreditAmount>2445.46</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/16</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:02:07</SystemEntryDate>
+						<Description>VFA Nº 16/B</Description>
+						<DebitAmount>1988.18</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/16</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:02:07</SystemEntryDate>
+						<Description>VFA Nº 16/B</Description>
+						<DebitAmount>457.28</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70006</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 17/B</Description>
+				<DocArchivalNumber>70006</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110001</AccountID>
+						<SourceDocumentID>VFA B/17</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:04:00</SystemEntryDate>
+						<Description>VFA Nº 17/B</Description>
+						<CreditAmount>9249.54</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/17</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:04:00</SystemEntryDate>
+						<Description>VFA Nº 17/B</Description>
+						<DebitAmount>7519.95</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/17</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:04:00</SystemEntryDate>
+						<Description>VFA Nº 17/B</Description>
+						<DebitAmount>1729.59</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00041 70007</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 18/B</Description>
+				<DocArchivalNumber>70007</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110010</AccountID>
+						<SourceDocumentID>VFA B/18</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:06:26</SystemEntryDate>
+						<Description>VFA Nº 18/B</Description>
+						<CreditAmount>2336.73</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA B/18</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:06:26</SystemEntryDate>
+						<Description>VFA Nº 18/B</Description>
+						<DebitAmount>1899.78</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>3</RecordID>
+						<AccountID>24321132311</AccountID>
+						<SourceDocumentID>VFA B/18</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:06:26</SystemEntryDate>
+						<Description>VFA Nº 18/B</Description>
+						<DebitAmount>436.95</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>00051</JournalID>
+			<Description>Vendas - Crédito - MN</Description>
+			<Transaction>
+				<TransactionID>2020-07-07 00051 70001</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 4/B</Description>
+				<DocArchivalNumber>70001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110004</AccountID>
+						<SourceDocumentID>FA B/4</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:16:37</SystemEntryDate>
+						<Description>FA Nº 4/B</Description>
+						<DebitAmount>17828.79</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA B/4</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:16:37</SystemEntryDate>
+						<Description>FA Nº 4/B</Description>
+						<CreditAmount>14494.95</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA B/4</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:16:37</SystemEntryDate>
+						<Description>FA Nº 4/B</Description>
+						<CreditAmount>3333.84</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00051 70002</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 5/B</Description>
+				<DocArchivalNumber>70002</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110006</AccountID>
+						<SourceDocumentID>FA B/5</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:23:37</SystemEntryDate>
+						<Description>FA Nº 5/B</Description>
+						<DebitAmount>8560.22</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA B/5</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:23:37</SystemEntryDate>
+						<Description>FA Nº 5/B</Description>
+						<CreditAmount>6959.53</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA B/5</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:23:37</SystemEntryDate>
+						<Description>FA Nº 5/B</Description>
+						<CreditAmount>1600.69</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2020-07-07 00051 70003</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2020-07-07</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 6/B</Description>
+				<DocArchivalNumber>70003</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2020-07-08</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110007</AccountID>
+						<SourceDocumentID>FA B/6</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:25:38</SystemEntryDate>
+						<Description>FA Nº 6/B</Description>
+						<DebitAmount>8972.69</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA B/6</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:25:38</SystemEntryDate>
+						<Description>FA Nº 6/B</Description>
+						<CreditAmount>7294.87</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA B/6</SourceDocumentID>
+						<SystemEntryDate>2020-07-08T15:25:38</SystemEntryDate>
+						<Description>FA Nº 6/B</Description>
+						<CreditAmount>1677.82</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+	</GeneralLedgerEntries>
+	<SourceDocuments>
+		<SalesInvoices>
+			<NumberOfEntries>6</NumberOfEntries>
+			<TotalDebit>0.00</TotalDebit>
+			<TotalCredit>73298.62</TotalCredit>
+			<Invoice>
+				<InvoiceNo>FA B/1</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2020-07-07T17:17:39</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>hK0mCtra5G6oxUZ5p6DKFAeCcIHqSTPLTi7UBWXtJR/sRy3bQi0kuH3Pz/d+QTn5B4idVkk2glZhbw9uyIeJZab+jOpJ5/pfvWjd6YK/6BCDJmK1VfJRNc7Bfr1DL95mI7KgxC3Bhe08YYT7ZvUJ2aW/E/5oQ61jF8ElLhmMJjA=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2020-07-07</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2020-07-07T17:17:39</SystemEntryDate>
+				<CustomerID>PT511108591_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2020-07-07</DeliveryDate>
+					<Address>
+						<AddressDetail>Estrada da Circunvalação</AddressDetail>
+						<City>Porto</City>
+						<PostalCode>4200</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2020-07-07</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Curral, 857 - 0</AddressDetail>
+						<City>Margaride</City>
+						<PostalCode>4610</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2020-07-07T17:19:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>A0001</ProductCode>
+					<ProductDescription>Macbook Pro 13</ProductDescription>
+					<Quantity>2</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>1299</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Macbook Pro 13</Description>
+					<CreditAmount>2598.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>A0006</ProductCode>
+					<ProductDescription>Omen Laptop 15</ProductDescription>
+					<Quantity>2</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>1200</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Omen Laptop 15</Description>
+					<CreditAmount>2400.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>A0002</ProductCode>
+					<ProductDescription>Macbook Air 13</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>969.03</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Macbook Air 13</Description>
+					<CreditAmount>4845.15</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>149.85</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>A0007</ProductCode>
+					<ProductDescription>NVIDIA Geforce GTX 1060Ti</ProductDescription>
+					<Quantity>2</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>209.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>NVIDIA Geforce GTX 1060Ti</Description>
+					<CreditAmount>419.98</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>A0008</ProductCode>
+					<ProductDescription>NVIDIA Geforce RTX 2060</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>399.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>NVIDIA Geforce RTX 2060</Description>
+					<CreditAmount>399.99</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>A00014</ProductCode>
+					<ProductDescription>Razer Viper Mini Ultralight</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>39.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Viper Mini Ultralight</Description>
+					<CreditAmount>199.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>7</LineNumber>
+					<ProductCode>A00016</ProductCode>
+					<ProductDescription>Razer Kraken Gaming Headset</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>79.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Kraken Gaming Headset</Description>
+					<CreditAmount>399.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>2590.49</TaxPayable>
+					<NetTotal>11263.02</NetTotal>
+					<GrossTotal>13853.51</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA B/2</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2020-07-07T17:30:08</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>UnVs2pniyjHorwKKgF9GO/ComrJibIc96ay788mQ4hmQbTEG+SxaVCVhcvEvLsdfaLjXPxAVyEyVnkzU1bzPnzHW1qrSoQ5EHO4ZLO4lW3b2FncdDdYX3iOtMGlKPsXX99tSEfT0+8YmHylgjB8TEbxK2s5ggi9hKJFo0aXFsPQ=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2020-07-07</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2020-07-07T17:30:08</SystemEntryDate>
+				<CustomerID>PT500719225_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2020-07-07</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua João Mendonça</AddressDetail>
+						<City>Matosinhos</City>
+						<PostalCode>4450-393</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2020-07-07</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Curral, 857 - 0</AddressDetail>
+						<City>Margaride</City>
+						<PostalCode>4610</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2020-07-07T17:32:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>A0001</ProductCode>
+					<ProductDescription>Macbook Pro 13</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>1299</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Macbook Pro 13</Description>
+					<CreditAmount>6495.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>A0002</ProductCode>
+					<ProductDescription>Macbook Air 13</ProductDescription>
+					<Quantity>8</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>999</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Macbook Air 13</Description>
+					<CreditAmount>7992.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>A00017</ProductCode>
+					<ProductDescription>ROG Zephyrus DUO 15</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>1599.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>ROG Zephyrus DUO 15</Description>
+					<CreditAmount>7999.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>A00013</ProductCode>
+					<ProductDescription>Razer Naga Trinity Gaming Mouse</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>79.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Naga Trinity Gaming Mouse</Description>
+					<CreditAmount>399.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>A00014</ProductCode>
+					<ProductDescription>Razer Viper Mini Ultralight</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>39.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Viper Mini Ultralight</Description>
+					<CreditAmount>199.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>A00015</ProductCode>
+					<ProductDescription>Razer Cynosa Chroma Gaming</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>49.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Cynosa Chroma Gaming</Description>
+					<CreditAmount>249.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>5367.46</TaxPayable>
+					<NetTotal>23336.80</NetTotal>
+					<GrossTotal>28704.26</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA B/3</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2020-07-07T17:40:16</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>FBJQb2LhAJWXHbwIoZsIHYfcTC0PaaoJQhy/EbZT9ftqKD53owME5mm87bAJk5BQhVWkx1U7pvzDok4mzd9TM294OxeJk9IPCig1E9csNrPZaB1AMRQtbMXLM15lLPFrC6I9/8d5yWubeOi2B8GyV8ntPbO6OITWPgzwzg8dToU=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2020-07-07</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2020-07-07T17:40:16</SystemEntryDate>
+				<CustomerID>PT509686435_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2020-07-07</DeliveryDate>
+					<Address>
+						<AddressDetail>Travessa da Baquelite</AddressDetail>
+						<City>Leiria</City>
+						<PostalCode>2415-611</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2020-07-07</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Curral, 857 - 0</AddressDetail>
+						<City>Margaride</City>
+						<PostalCode>4610</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2020-07-07T17:42:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>A00010</ProductCode>
+					<ProductDescription>Intel Core i7-9700K</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>399.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Intel Core i7-9700K</Description>
+					<CreditAmount>1999.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>A00011</ProductCode>
+					<ProductDescription>Intel Core i9-9900K</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>499.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Intel Core i9-9900K</Description>
+					<CreditAmount>2499.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>A00012</ProductCode>
+					<ProductDescription>AMD Ryzen 7 3700x</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>299.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>AMD Ryzen 7 3700x</Description>
+					<CreditAmount>1499.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>A0003</ProductCode>
+					<ProductDescription>Corsair Vengeance RGB Pro 16GB</ProductDescription>
+					<Quantity>15</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>99.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Corsair Vengeance RGB Pro 16GB</Description>
+					<CreditAmount>1499.85</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>A0004</ProductCode>
+					<ProductDescription>TridentZ RGB Series 16GB</ProductDescription>
+					<Quantity>10</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>139.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>TridentZ RGB Series 16GB</Description>
+					<CreditAmount>1399.90</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>A0005</ProductCode>
+					<ProductDescription>TEAMGROUP T-Force Vulcan Z 16GB</ProductDescription>
+					<Quantity>15</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>69.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>TEAMGROUP T-Force Vulcan Z 16GB</Description>
+					<CreditAmount>1049.85</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>2288.37</TaxPayable>
+					<NetTotal>9949.45</NetTotal>
+					<GrossTotal>12237.82</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA B/4</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2020-07-08T15:16:35</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>K4CSuWDLAjzkokBuBQCsUiXex7Ku98iRYXlRMhf2uF0KGI3miGhX8zIHinrdItE4bgQ3SAs4jgbioa/t7p+ydMoBhru3F7u+rnLv9+JSHvCAr2HQhCl05tDydMnAirfwDAbeaiY+L9/V2pq2UshU45fRfti571EiS9IuRBZUp74=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2020-07-07</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2020-07-08T15:16:35</SystemEntryDate>
+				<TransactionID>2020-07-07 00051 70001</TransactionID>
+				<CustomerID>PT504273523_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2020-07-08</DeliveryDate>
+					<Address>
+						<AddressDetail>Senhora da Hora</AddressDetail>
+						<City>Matosinhos</City>
+						<PostalCode>4460-841</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2020-07-08</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Curral, 857 - 0</AddressDetail>
+						<City>Margaride</City>
+						<PostalCode>4610-156</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2020-07-08T15:17:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>A0001</ProductCode>
+					<ProductDescription>Macbook Pro 13</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>1299</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Macbook Pro 13</Description>
+					<CreditAmount>6495.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>A00017</ProductCode>
+					<ProductDescription>ROG Zephyrus DUO 15</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>1599.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>ROG Zephyrus DUO 15</Description>
+					<CreditAmount>7999.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>3333.84</TaxPayable>
+					<NetTotal>14494.95</NetTotal>
+					<GrossTotal>17828.79</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA B/5</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2020-07-08T15:23:36</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>VJ0cySWfobkQHhuBPz4ri4VH7jLZavTDbm4hS7uG7QghTq0I8x7pDrq9LQqniuwlq4FCkDxnXII7kRgHnkeNQ1/uUFBh7g2wRljBISZFsAZNRoJon+PSZLlC3SyQR4wDB8SQgK4t06H+sGVZjQ/xeExI4IdUAkabxxHl+ygfMbw=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2020-07-07</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2020-07-08T15:23:36</SystemEntryDate>
+				<TransactionID>2020-07-07 00051 70002</TransactionID>
+				<CustomerID>PT509804934_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2020-07-08</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Nova de Santa Cruz</AddressDetail>
+						<City>Braga</City>
+						<PostalCode>4710-409</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2020-07-08</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Curral, 857 - 0</AddressDetail>
+						<City>Margaride</City>
+						<PostalCode>4610-156</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2020-07-08T15:25:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>A00010</ProductCode>
+					<ProductDescription>Intel Core i7-9700K</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>399.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Intel Core i7-9700K</Description>
+					<CreditAmount>1999.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>A00015</ProductCode>
+					<ProductDescription>Razer Cynosa Chroma Gaming</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>49.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Cynosa Chroma Gaming</Description>
+					<CreditAmount>249.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>A00016</ProductCode>
+					<ProductDescription>Razer Kraken Gaming Headset</ProductDescription>
+					<Quantity>7</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>79.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Razer Kraken Gaming Headset</Description>
+					<CreditAmount>559.93</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>A00019</ProductCode>
+					<ProductDescription>Samsung 970 Evo Plus SSD 1TB - M.2 NVMe</ProductDescription>
+					<Quantity>10</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>189.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Samsung 970 Evo Plus SSD 1TB - M.2 NVMe</Description>
+					<CreditAmount>1899.90</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>A0003</ProductCode>
+					<ProductDescription>Corsair Vengeance RGB Pro 16GB</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>99.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Corsair Vengeance RGB Pro 16GB</Description>
+					<CreditAmount>499.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>A0007</ProductCode>
+					<ProductDescription>NVIDIA Geforce GTX 1060Ti</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>209.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>NVIDIA Geforce GTX 1060Ti</Description>
+					<CreditAmount>1049.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>7</LineNumber>
+					<ProductCode>A0005</ProductCode>
+					<ProductDescription>TEAMGROUP T-Force Vulcan Z 16GB</ProductDescription>
+					<Quantity>10</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>69.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>TEAMGROUP T-Force Vulcan Z 16GB</Description>
+					<CreditAmount>699.90</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1600.69</TaxPayable>
+					<NetTotal>6959.53</NetTotal>
+					<GrossTotal>8560.22</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA B/6</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2020-07-08T15:25:37</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>KtpVUyWu2dbadqoEqQiSwGcjlKXd1kxrc4fvf54cYWqETmF3konbUxYxOvCie/R89hxE5ZpWXiy7ESQJ53m4oz6Bbwi37qRvNLd0iG/t9Ua/MfxuVZaediL75swruvMBiZ2uu76QO0OFYwBDsEaYNEyShcq9+fnQHaNDw55OCzE=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2020-07-07</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2020-07-08T15:25:37</SystemEntryDate>
+				<TransactionID>2020-07-07 00051 70003</TransactionID>
+				<CustomerID>PT500947007_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2020-07-08</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Soares dos Reis</AddressDetail>
+						<City>Vila Nova de Gaia</City>
+						<PostalCode>4400-315</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2020-07-08</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Curral, 857 - 0</AddressDetail>
+						<City>Margaride</City>
+						<PostalCode>4610-156</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2020-07-08T15:27:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>A00012</ProductCode>
+					<ProductDescription>AMD Ryzen 7 3700x</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>299.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>AMD Ryzen 7 3700x</Description>
+					<CreditAmount>1499.95</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>A0002</ProductCode>
+					<ProductDescription>Macbook Air 13</ProductDescription>
+					<Quantity>5</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>999</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Macbook Air 13</Description>
+					<CreditAmount>4995.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>A0003</ProductCode>
+					<ProductDescription>Corsair Vengeance RGB Pro 16GB</ProductDescription>
+					<Quantity>8</Quantity>
+					<UnitOfMeasure>UN</UnitOfMeasure>
+					<UnitPrice>99.99</UnitPrice>
+					<TaxPointDate>2020-07-07</TaxPointDate>
+					<Description>Corsair Vengeance RGB Pro 16GB</Description>
+					<CreditAmount>799.92</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1677.82</TaxPayable>
+					<NetTotal>7294.87</NetTotal>
+					<GrossTotal>8972.69</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+		</SalesInvoices>
+	</SourceDocuments>
+</AuditFile>
