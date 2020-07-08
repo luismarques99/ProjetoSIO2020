@@ -4,9 +4,7 @@ const xml2js = require("xml2js");
 
 const parser = new xml2js.Parser();
 
-let xmlResult = "";
-
-filename = "SAFTPT1_04_01_example";
+filename = "SAFT_100_01-01-2020_31-12-2020";
 
 fs.readFile(`${filename}.xml`, (err, data) => {
 	parser.parseString(data, (err, result) => {

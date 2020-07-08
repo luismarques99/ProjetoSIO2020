@@ -1,0 +1,1231 @@
+{
+  "AuditFile": {
+    "Header": [
+      {
+        "AuditFileVersion": ["1.04_01"],
+        "CompanyID": ["506426670"],
+        "TaxRegistrationNumber": ["506426670"],
+        "TaxAccountingBasis": ["I"],
+        "CompanyName": ["Tech4You"],
+        "CompanyAddress": [
+          {
+            "BuildingNumber": ["857"],
+            "StreetName": ["Rua do Curral"],
+            "AddressDetail": ["Rua do Curral, 857"],
+            "City": ["Margaride"],
+            "PostalCode": ["4610-156"],
+            "Region": ["Porto"],
+            "Country": ["PT"]
+          }
+        ],
+        "FiscalYear": ["2020"],
+        "StartDate": ["2020-01-01"],
+        "EndDate": ["2020-12-31"],
+        "CurrencyCode": ["EUR"],
+        "DateCreated": ["2020-07-08"],
+        "TaxEntity": ["Sede"],
+        "ProductCompanyTaxID": ["503140600"],
+        "SoftwareCertificateNumber": ["0030"],
+        "ProductID": ["ERP v750/PRIMAVERA Business Software Solutions"],
+        "ProductVersion": ["09.1507.1039"],
+        "Telephone": ["255314002"],
+        "Fax": ["255314120"],
+        "Email": ["geral@tech4you.com"],
+        "Website": ["www.tech4you.com"]
+      }
+    ],
+    "MasterFiles": [
+      {
+        "Customer": [
+          {
+            "CustomerID": ["Consumidor final"],
+            "AccountID": ["Desconhecido"],
+            "CustomerTaxID": ["999999990"],
+            "CompanyName": ["Consumidor final"],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Desconhecido"],
+                "City": ["Desconhecido"],
+                "PostalCode": ["Desconhecido"],
+                "Country": ["Desconhecido"]
+              }
+            ],
+            "ShipToAddress": [
+              {
+                "AddressDetail": ["Desconhecido"],
+                "City": ["Desconhecido"],
+                "PostalCode": ["Desconhecido"],
+                "Country": ["Desconhecido"]
+              }
+            ],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "CustomerID": ["PT509686435_C"],
+            "AccountID": ["211110001"],
+            "CustomerTaxID": ["509686435"],
+            "CompanyName": ["PCDiga CO."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Travessa da Baquelite"],
+                "City": ["Leiria"],
+                "PostalCode": ["2415-611"],
+                "Region": ["Leiria"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipToAddress": [
+              {
+                "AddressDetail": ["Travessa da Baquelite"],
+                "City": ["Leiria"],
+                "PostalCode": ["2415-611"],
+                "Region": ["Leiria"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["304500600"],
+            "Website": ["www.pcdiga.com"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "CustomerID": ["PT500719225_C"],
+            "AccountID": ["211110003"],
+            "CustomerTaxID": ["500719225"],
+            "CompanyName": ["Worten SA."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Rua Jo�o Mendon�a"],
+                "City": ["Matosinhos"],
+                "PostalCode": ["4450-393"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipToAddress": [
+              {
+                "AddressDetail": ["Rua Jo�o Mendon�a"],
+                "City": ["Matosinhos"],
+                "PostalCode": ["4450-393"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["808100102"],
+            "Website": ["www.worten.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "CustomerID": ["PT511108591_C"],
+            "AccountID": ["211110009"],
+            "CustomerTaxID": ["511108591"],
+            "CompanyName": ["Prinfor SA."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Estrada da Circunvala��o"],
+                "City": ["Porto"],
+                "PostalCode": ["4200-163"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipToAddress": [
+              {
+                "AddressDetail": ["Estrada da Circunvala��o"],
+                "City": ["Porto"],
+                "PostalCode": ["4200-163"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["255561407"],
+            "Website": ["www.prinfor.pt"],
+            "SelfBillingIndicator": ["0"]
+          }
+        ],
+        "Supplier": [
+          {
+            "SupplierID": ["509792154_F"],
+            "AccountID": ["221110001"],
+            "SupplierTaxID": ["509792154"],
+            "CompanyName": ["Asus Inc."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Parque Industrial de Coimbroes"],
+                "City": ["Sao Jo�o de Lourosa"],
+                "PostalCode": ["3501"],
+                "Region": ["Viseu"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Parque Industrial de Coimbroes"],
+                "City": ["Sao Jo�o de Lourosa"],
+                "PostalCode": ["3501"],
+                "Region": ["Viseu"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 505 677 139"],
+            "Website": ["www.asus.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["501332979_F"],
+            "AccountID": ["221110010"],
+            "SupplierTaxID": ["501332979"],
+            "CompanyName": ["Corsair Inc."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Rua Miguel Bombarda"],
+                "City": ["Cedofeita"],
+                "PostalCode": ["4100"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Rua Miguel Bombarda"],
+                "City": ["Cedofeita"],
+                "PostalCode": ["4100"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 25 567 1899"],
+            "Website": ["www.corsair.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["506345661_F"],
+            "AccountID": ["221110004"],
+            "SupplierTaxID": ["506345661"],
+            "CompanyName": ["HP Inc."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Rua da Liberdade"],
+                "City": ["Alenquer"],
+                "PostalCode": ["2580"],
+                "Region": ["Lisboa"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Rua da Liberdade"],
+                "City": ["Alenquer"],
+                "PostalCode": ["2580"],
+                "Region": ["Lisboa"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 21 345 9809"],
+            "Website": ["www.hp.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["504148427_F"],
+            "AccountID": ["221110005"],
+            "SupplierTaxID": ["504148427"],
+            "CompanyName": ["Apple Inc."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Senhora da Hora"],
+                "City": ["Matosinhos"],
+                "PostalCode": ["4460"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Senhora da Hora"],
+                "City": ["Matosinhos"],
+                "PostalCode": ["4460"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 22 957 1300"],
+            "Website": ["www.apple.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["500607648_F"],
+            "AccountID": ["221110006"],
+            "SupplierTaxID": ["500607648"],
+            "CompanyName": ["Intel Co."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Avenida de Portugal"],
+                "City": ["Carnaxide"],
+                "PostalCode": ["2790"],
+                "Region": ["Lisboa"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Avenida de Portugal"],
+                "City": ["Carnaxide"],
+                "PostalCode": ["2790"],
+                "Region": ["Lisboa"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 21 503 3498"],
+            "Website": ["www.intel.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["502647671_F"],
+            "AccountID": ["221110007"],
+            "SupplierTaxID": ["502647671"],
+            "CompanyName": ["AMD Inc."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Rua da Epadaneira"],
+                "City": ["Sao Bartolomeu"],
+                "PostalCode": ["3000"],
+                "Region": ["Coimbra"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Rua da Epadaneira"],
+                "City": ["Sao Bartolomeu"],
+                "PostalCode": ["3000"],
+                "Region": ["Coimbra"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 25 508 9761"],
+            "Website": ["www.amd.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["502082119_F"],
+            "AccountID": ["221110008"],
+            "SupplierTaxID": ["502082119"],
+            "CompanyName": ["Razer Inc."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Beco da Moleira"],
+                "City": ["Barreira"],
+                "PostalCode": ["2410"],
+                "Region": ["Leiria"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Beco da Moleira"],
+                "City": ["Barreira"],
+                "PostalCode": ["2410"],
+                "Region": ["Leiria"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 25 503 6141"],
+            "Website": ["www.razer.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "SupplierID": ["504946501_F"],
+            "AccountID": ["221110009"],
+            "SupplierTaxID": ["504946501"],
+            "CompanyName": ["NVIDIA Co."],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Avenida da Recupera��o"],
+                "City": ["Monte Real"],
+                "PostalCode": ["2426"],
+                "Region": ["Leiria"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Avenida da Recupera��o"],
+                "City": ["Monte Real"],
+                "PostalCode": ["2426"],
+                "Region": ["Leiria"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 25 512 0516"],
+            "Website": ["www.nvidia.com"],
+            "SelfBillingIndicator": ["0"]
+          }
+        ],
+        "Product": [
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0001"],
+            "ProductGroup": ["Portateis"],
+            "ProductDescription": ["Macbook Pro 13"],
+            "ProductNumberCode": ["A0001"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00010"],
+            "ProductGroup": ["CPU"],
+            "ProductDescription": ["Intel Core i7-9700K"],
+            "ProductNumberCode": ["A00010"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00011"],
+            "ProductGroup": ["CPU"],
+            "ProductDescription": ["Intel Core i9-9900K"],
+            "ProductNumberCode": ["A00011"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00012"],
+            "ProductGroup": ["CPU"],
+            "ProductDescription": ["AMD Ryzen 7 3700x"],
+            "ProductNumberCode": ["A00012"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00013"],
+            "ProductGroup": ["Perifericos"],
+            "ProductDescription": ["Razer Naga Trinity Gaming Mouse"],
+            "ProductNumberCode": ["A00013"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00014"],
+            "ProductGroup": ["Perifericos"],
+            "ProductDescription": ["Razer Viper Mini Ultralight"],
+            "ProductNumberCode": ["A00014"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00015"],
+            "ProductGroup": ["Perifericos"],
+            "ProductDescription": ["Razer Cynosa Chroma Gaming"],
+            "ProductNumberCode": ["A00015"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00016"],
+            "ProductGroup": ["Perifericos"],
+            "ProductDescription": ["Razer Kraken Gaming Headset"],
+            "ProductNumberCode": ["A00016"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00017"],
+            "ProductGroup": ["Portateis"],
+            "ProductDescription": ["ROG Zephyrus DUO 15"],
+            "ProductNumberCode": ["A00017"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0002"],
+            "ProductGroup": ["Portateis"],
+            "ProductDescription": ["Macbook Air 13"],
+            "ProductNumberCode": ["A0002"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0003"],
+            "ProductGroup": ["RAM"],
+            "ProductDescription": ["Corsair Vengeance RGB Pro 16GB"],
+            "ProductNumberCode": ["A0003"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0004"],
+            "ProductGroup": ["RAM"],
+            "ProductDescription": ["TridentZ RGB Series 16GB"],
+            "ProductNumberCode": ["A0004"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0005"],
+            "ProductGroup": ["RAM"],
+            "ProductDescription": ["TEAMGROUP T-Force Vulcan Z 16GB"],
+            "ProductNumberCode": ["A0005"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0006"],
+            "ProductGroup": ["Portateis"],
+            "ProductDescription": ["Omen Laptop 15"],
+            "ProductNumberCode": ["A0006"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0007"],
+            "ProductGroup": ["Placas Gr�ficas"],
+            "ProductDescription": ["NVIDIA Geforce GTX 1060Ti"],
+            "ProductNumberCode": ["A0007"]
+          },
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A0008"],
+            "ProductGroup": ["Placas Gr�ficas"],
+            "ProductDescription": ["NVIDIA Geforce RTX 2060"],
+            "ProductNumberCode": ["A0008"]
+          },
+          {
+            "ProductType": ["O"],
+            "ProductCode": ["Especial"],
+            "ProductGroup": ["Sem fam�lia"],
+            "ProductDescription": ["Linha especial"],
+            "ProductNumberCode": ["Especial"]
+          }
+        ],
+        "TaxTable": [
+          {
+            "TaxTableEntry": [
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isenta"],
+                "TaxPercentage": ["0.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["4.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["RED"],
+                "Description": ["Reduzida"],
+                "TaxPercentage": ["5.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["RED"],
+                "Description": ["Reduzida"],
+                "TaxPercentage": ["6.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["9.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["INT"],
+                "Description": ["Interm�dia"],
+                "TaxPercentage": ["12.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["INT"],
+                "Description": ["Interm�dia"],
+                "TaxPercentage": ["13.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["15.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["22.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["NOR"],
+                "Description": ["Normal"],
+                "TaxPercentage": ["23.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["23.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isenta"],
+                "TaxPercentage": ["0.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["4.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["9.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["16.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isenta"],
+                "TaxPercentage": ["0.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["5.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["12.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["22.00"]
+              },
+              {
+                "TaxType": ["IS"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isento"],
+                "TaxPercentage": ["0.00"]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "GeneralLedgerEntries": [
+      {
+        "NumberOfEntries": ["0"],
+        "TotalDebit": ["0.00"],
+        "TotalCredit": ["0.00"]
+      }
+    ],
+    "SourceDocuments": [
+      {
+        "SalesInvoices": [
+          {
+            "NumberOfEntries": ["3"],
+            "TotalDebit": ["0.00"],
+            "TotalCredit": ["44549.27"],
+            "Invoice": [
+              {
+                "InvoiceNo": ["FA B/1"],
+                "ATCUD": ["0"],
+                "DocumentStatus": [
+                  {
+                    "InvoiceStatus": ["N"],
+                    "InvoiceStatusDate": ["2020-07-07T17:17:39"],
+                    "SourceID": ["ESTG"],
+                    "SourceBilling": ["P"]
+                  }
+                ],
+                "Hash": [
+                  "hK0mCtra5G6oxUZ5p6DKFAeCcIHqSTPLTi7UBWXtJR/sRy3bQi0kuH3Pz/d+QTn5B4idVkk2glZhbw9uyIeJZab+jOpJ5/pfvWjd6YK/6BCDJmK1VfJRNc7Bfr1DL95mI7KgxC3Bhe08YYT7ZvUJ2aW/E/5oQ61jF8ElLhmMJjA="
+                ],
+                "HashControl": ["1"],
+                "Period": ["07"],
+                "InvoiceDate": ["2020-07-07"],
+                "InvoiceType": ["FT"],
+                "SpecialRegimes": [
+                  {
+                    "SelfBillingIndicator": ["0"],
+                    "CashVATSchemeIndicator": ["0"],
+                    "ThirdPartiesBillingIndicator": ["0"]
+                  }
+                ],
+                "SourceID": ["ESTG"],
+                "SystemEntryDate": ["2020-07-07T17:17:39"],
+                "CustomerID": ["PT511108591_C"],
+                "ShipTo": [
+                  {
+                    "DeliveryDate": ["2020-07-07"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Estrada da Circunvala��o"],
+                        "City": ["Porto"],
+                        "PostalCode": ["4200"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "ShipFrom": [
+                  {
+                    "DeliveryDate": ["2020-07-07"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Rua do Curral, 857 - 0"],
+                        "City": ["Margaride"],
+                        "PostalCode": ["4610"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "MovementStartTime": ["2020-07-07T17:19:00"],
+                "Line": [
+                  {
+                    "LineNumber": ["1"],
+                    "ProductCode": ["A0001"],
+                    "ProductDescription": ["Macbook Pro 13"],
+                    "Quantity": ["2"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["1299"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Macbook Pro 13"],
+                    "CreditAmount": ["2598.00"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["2"],
+                    "ProductCode": ["A0006"],
+                    "ProductDescription": ["Omen Laptop 15"],
+                    "Quantity": ["2"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["1200"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Omen Laptop 15"],
+                    "CreditAmount": ["2400.00"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["3"],
+                    "ProductCode": ["A0002"],
+                    "ProductDescription": ["Macbook Air 13"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["969.03"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Macbook Air 13"],
+                    "CreditAmount": ["4845.15"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["149.85"]
+                  },
+                  {
+                    "LineNumber": ["4"],
+                    "ProductCode": ["A0007"],
+                    "ProductDescription": ["NVIDIA Geforce GTX 1060Ti"],
+                    "Quantity": ["2"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["209.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["NVIDIA Geforce GTX 1060Ti"],
+                    "CreditAmount": ["419.98"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["5"],
+                    "ProductCode": ["A0008"],
+                    "ProductDescription": ["NVIDIA Geforce RTX 2060"],
+                    "Quantity": ["1"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["399.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["NVIDIA Geforce RTX 2060"],
+                    "CreditAmount": ["399.99"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["6"],
+                    "ProductCode": ["A00014"],
+                    "ProductDescription": ["Razer Viper Mini Ultralight"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["39.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Razer Viper Mini Ultralight"],
+                    "CreditAmount": ["199.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["7"],
+                    "ProductCode": ["A00016"],
+                    "ProductDescription": ["Razer Kraken Gaming Headset"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["79.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Razer Kraken Gaming Headset"],
+                    "CreditAmount": ["399.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  }
+                ],
+                "DocumentTotals": [
+                  {
+                    "TaxPayable": ["2590.49"],
+                    "NetTotal": ["11263.02"],
+                    "GrossTotal": ["13853.51"]
+                  }
+                ],
+                "WithholdingTax": [{ "WithholdingTaxAmount": ["0.00"] }]
+              },
+              {
+                "InvoiceNo": ["FA B/2"],
+                "ATCUD": ["0"],
+                "DocumentStatus": [
+                  {
+                    "InvoiceStatus": ["N"],
+                    "InvoiceStatusDate": ["2020-07-07T17:30:08"],
+                    "SourceID": ["ESTG"],
+                    "SourceBilling": ["P"]
+                  }
+                ],
+                "Hash": [
+                  "UnVs2pniyjHorwKKgF9GO/ComrJibIc96ay788mQ4hmQbTEG+SxaVCVhcvEvLsdfaLjXPxAVyEyVnkzU1bzPnzHW1qrSoQ5EHO4ZLO4lW3b2FncdDdYX3iOtMGlKPsXX99tSEfT0+8YmHylgjB8TEbxK2s5ggi9hKJFo0aXFsPQ="
+                ],
+                "HashControl": ["1"],
+                "Period": ["07"],
+                "InvoiceDate": ["2020-07-07"],
+                "InvoiceType": ["FT"],
+                "SpecialRegimes": [
+                  {
+                    "SelfBillingIndicator": ["0"],
+                    "CashVATSchemeIndicator": ["0"],
+                    "ThirdPartiesBillingIndicator": ["0"]
+                  }
+                ],
+                "SourceID": ["ESTG"],
+                "SystemEntryDate": ["2020-07-07T17:30:08"],
+                "CustomerID": ["PT500719225_C"],
+                "ShipTo": [
+                  {
+                    "DeliveryDate": ["2020-07-07"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Rua Jo�o Mendon�a"],
+                        "City": ["Matosinhos"],
+                        "PostalCode": ["4450-393"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "ShipFrom": [
+                  {
+                    "DeliveryDate": ["2020-07-07"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Rua do Curral, 857 - 0"],
+                        "City": ["Margaride"],
+                        "PostalCode": ["4610"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "MovementStartTime": ["2020-07-07T17:32:00"],
+                "Line": [
+                  {
+                    "LineNumber": ["1"],
+                    "ProductCode": ["A0001"],
+                    "ProductDescription": ["Macbook Pro 13"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["1299"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Macbook Pro 13"],
+                    "CreditAmount": ["6495.00"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["2"],
+                    "ProductCode": ["A0002"],
+                    "ProductDescription": ["Macbook Air 13"],
+                    "Quantity": ["8"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["999"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Macbook Air 13"],
+                    "CreditAmount": ["7992.00"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["3"],
+                    "ProductCode": ["A00017"],
+                    "ProductDescription": ["ROG Zephyrus DUO 15"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["1599.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["ROG Zephyrus DUO 15"],
+                    "CreditAmount": ["7999.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["4"],
+                    "ProductCode": ["A00013"],
+                    "ProductDescription": ["Razer Naga Trinity Gaming Mouse"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["79.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Razer Naga Trinity Gaming Mouse"],
+                    "CreditAmount": ["399.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["5"],
+                    "ProductCode": ["A00014"],
+                    "ProductDescription": ["Razer Viper Mini Ultralight"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["39.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Razer Viper Mini Ultralight"],
+                    "CreditAmount": ["199.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["6"],
+                    "ProductCode": ["A00015"],
+                    "ProductDescription": ["Razer Cynosa Chroma Gaming"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["49.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Razer Cynosa Chroma Gaming"],
+                    "CreditAmount": ["249.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  }
+                ],
+                "DocumentTotals": [
+                  {
+                    "TaxPayable": ["5367.46"],
+                    "NetTotal": ["23336.80"],
+                    "GrossTotal": ["28704.26"]
+                  }
+                ],
+                "WithholdingTax": [{ "WithholdingTaxAmount": ["0.00"] }]
+              },
+              {
+                "InvoiceNo": ["FA B/3"],
+                "ATCUD": ["0"],
+                "DocumentStatus": [
+                  {
+                    "InvoiceStatus": ["N"],
+                    "InvoiceStatusDate": ["2020-07-07T17:40:16"],
+                    "SourceID": ["ESTG"],
+                    "SourceBilling": ["P"]
+                  }
+                ],
+                "Hash": [
+                  "FBJQb2LhAJWXHbwIoZsIHYfcTC0PaaoJQhy/EbZT9ftqKD53owME5mm87bAJk5BQhVWkx1U7pvzDok4mzd9TM294OxeJk9IPCig1E9csNrPZaB1AMRQtbMXLM15lLPFrC6I9/8d5yWubeOi2B8GyV8ntPbO6OITWPgzwzg8dToU="
+                ],
+                "HashControl": ["1"],
+                "Period": ["07"],
+                "InvoiceDate": ["2020-07-07"],
+                "InvoiceType": ["FT"],
+                "SpecialRegimes": [
+                  {
+                    "SelfBillingIndicator": ["0"],
+                    "CashVATSchemeIndicator": ["0"],
+                    "ThirdPartiesBillingIndicator": ["0"]
+                  }
+                ],
+                "SourceID": ["ESTG"],
+                "SystemEntryDate": ["2020-07-07T17:40:16"],
+                "CustomerID": ["PT509686435_C"],
+                "ShipTo": [
+                  {
+                    "DeliveryDate": ["2020-07-07"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Travessa da Baquelite"],
+                        "City": ["Leiria"],
+                        "PostalCode": ["2415-611"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "ShipFrom": [
+                  {
+                    "DeliveryDate": ["2020-07-07"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Rua do Curral, 857 - 0"],
+                        "City": ["Margaride"],
+                        "PostalCode": ["4610"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "MovementStartTime": ["2020-07-07T17:42:00"],
+                "Line": [
+                  {
+                    "LineNumber": ["1"],
+                    "ProductCode": ["A00010"],
+                    "ProductDescription": ["Intel Core i7-9700K"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["399.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Intel Core i7-9700K"],
+                    "CreditAmount": ["1999.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["2"],
+                    "ProductCode": ["A00011"],
+                    "ProductDescription": ["Intel Core i9-9900K"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["499.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Intel Core i9-9900K"],
+                    "CreditAmount": ["2499.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["3"],
+                    "ProductCode": ["A00012"],
+                    "ProductDescription": ["AMD Ryzen 7 3700x"],
+                    "Quantity": ["5"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["299.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["AMD Ryzen 7 3700x"],
+                    "CreditAmount": ["1499.95"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["4"],
+                    "ProductCode": ["A0003"],
+                    "ProductDescription": ["Corsair Vengeance RGB Pro 16GB"],
+                    "Quantity": ["15"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["99.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["Corsair Vengeance RGB Pro 16GB"],
+                    "CreditAmount": ["1499.85"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["5"],
+                    "ProductCode": ["A0004"],
+                    "ProductDescription": ["TridentZ RGB Series 16GB"],
+                    "Quantity": ["10"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["139.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["TridentZ RGB Series 16GB"],
+                    "CreditAmount": ["1399.90"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  },
+                  {
+                    "LineNumber": ["6"],
+                    "ProductCode": ["A0005"],
+                    "ProductDescription": ["TEAMGROUP T-Force Vulcan Z 16GB"],
+                    "Quantity": ["15"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["69.99"],
+                    "TaxPointDate": ["2020-07-07"],
+                    "Description": ["TEAMGROUP T-Force Vulcan Z 16GB"],
+                    "CreditAmount": ["1049.85"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  }
+                ],
+                "DocumentTotals": [
+                  {
+                    "TaxPayable": ["2288.37"],
+                    "NetTotal": ["9949.45"],
+                    "GrossTotal": ["12237.82"]
+                  }
+                ],
+                "WithholdingTax": [{ "WithholdingTaxAmount": ["0.00"] }]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
