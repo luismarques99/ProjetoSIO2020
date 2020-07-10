@@ -1,0 +1,30 @@
+.header {
+  background-color: #70685e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 25px;
+  font-family: 'Merienda One', cursive;
+  box-sizing: border-box;
+}
+
+.right-header {
+  display: flex;
+}
+
+.left-header {
+  display: flex;
+}
+
+a {
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa600;
+  text-decoration: none;
+  cursor: pointer;
+}
