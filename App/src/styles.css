@@ -3,3 +3,17 @@ body{
   margin: 0;
   background-color: #fff0d9;
 }
+
+::-webkit-scrollbar{
+  background-color: #e5d5bc;
+  box-shadow: inset 0 0 5px black;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ff9900;
+  box-shadow: inset 0 0 5px black;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #ff7b00;
+}
