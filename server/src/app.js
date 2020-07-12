@@ -18,6 +18,12 @@ app.use(express.json());
 
 app.use("/api/v1", cors(), apiRouter);
 
+app.use(express.static(`${process.cwd()}/../app/dist/app`));
+
+app.get("/", (req, res) => {
+	res.sendFile(`/../app/dist/app/index.html`);
+});
+
 app.listen(PORT, () => {
 	console.log(`The server is running in http://localhost:${PORT}`);
 });
