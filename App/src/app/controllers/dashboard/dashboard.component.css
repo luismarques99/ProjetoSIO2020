@@ -77,3 +77,28 @@ tr:nth-child(even) {
 .table-label-div {
   margin-right: 20px;
 }
+
+.total-value-span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.total-values-div {
+  display: flex;
+}
+
+.total-values-title {
+  font-weight: bold;
+}
+
+#debit-div {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #ff0000;
+}
+
+#credit-div {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #42d100;
+}

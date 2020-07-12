@@ -31,6 +31,78 @@
     <div class="detail"><span class="detail-span">Created in: </span>{{saftFile.data.Header[0].DateCreated[0]}}</div>
   </div>
 
+  <div class="details-div">
+    <div class="total-values-div">
+      <h3 class="total-values-title">Total Debit: </h3>
+      <div id="debit-div">{{saftFile.data.GeneralLedgerEntries[0].TotalDebit[0]}}</div>
+    </div>
+
+    <div class="total-values-div">
+      <h3 class="total-values-title">Total Credit: </h3>
+      <div id="credit-div">{{saftFile.data.GeneralLedgerEntries[0].TotalCredit[0]}}</div>
+    </div>
+  </div>
+
+  <!-- <div id="total-values" class="details-div">
+    <div>
+      <h3 class="title">Total Debit: </h3>
+      <span id="debit-span">{{saftFile.data.GeneralLedgerEntries[0].TotalDebit[0]}}</span>
+    </div>
+    <br />
+    <div>
+      <h3 class="title">Total Credit: </h3>
+      <span id="credit-span">{{saftFile.data.GeneralLedgerEntries[0].TotalCredit[0]}}</span>
+    </div>
+  </div> -->
+
+  <div id="purchases-details" class="details-div">
+    <h3 class="title">Purchases:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Date</th>
+          <th>Source ID</th>
+          <th>Description</th>
+          <th>Doc Archival Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let purchase of purchases">
+          <td>{{purchase.TransactionID[0]}}</td>
+          <td>{{purchase.TransactionDate[0]}}</td>
+          <td>{{purchase.SourceID[0]}}</td>
+          <td>{{purchase.Description[0]}}</td>
+          <td>{{purchase.DocArchivalNumber[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="sales-details" class="details-div">
+    <h3 class="title">Sales:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Date</th>
+          <th>Source ID</th>
+          <th>Description</th>
+          <th>Doc Archival Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let sale of sales">
+          <td>{{sale.TransactionID[0]}}</td>
+          <td>{{sale.TransactionDate[0]}}</td>
+          <td>{{sale.SourceID[0]}}</td>
+          <td>{{sale.Description[0]}}</td>
+          <td>{{sale.DocArchivalNumber[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <div id="accounts-details" class="details-div">
     <h3 class="title">Accounts:</h3>
     <table>
