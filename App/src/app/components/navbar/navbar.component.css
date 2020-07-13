@@ -1,12 +1,15 @@
 .header {
-  background-color: #70685e;
+  background-color: #00000094;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 25px;
+  padding: 0px;
+  padding-right: 25px;
+  padding-left: 25px;
   font-family: "Merienda One", cursive;
   box-sizing: border-box;
+  box-shadow: 0px 1px 6px 1px #0000009f;
 }
 
 a {
@@ -21,12 +24,14 @@ a:hover {
 }
 
 .right-header {
+  height: 100%;
   display: flex;
   font-size: 18px;
 }
 
 .right-header-component {
-  margin-left: 20px;
+  padding: 15px;
+  margin: auto;
 }
 
 .left-header {
@@ -44,11 +49,12 @@ a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #70685e;
+  background-color: #615b52e5;
   min-width: 154px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 6px 1px #00000083;
   z-index: 1;
   font-size: 16px;
+  margin-top: 16px;
 }
 
 /* Links inside the dropdown */
@@ -62,7 +68,6 @@ a:hover {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   color: #ff9900;
-  /* background-color: #ddd; */
 }
 
 /* Show the dropdown menu on hover */
