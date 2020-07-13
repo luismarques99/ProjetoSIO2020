@@ -19,11 +19,11 @@ app.use(express.json());
 
 app.use("/api/v1", cors(), apiRouter);
 
-app.use(express.static(path.join(process.cwd(), "..", "app", "dist", "app")));
+app.use(express.static(path.join(process.cwd(), "..", "App", "dist", "app")));
 
 app.get("/*", (req, res) => {
 	try {
-		res.sendFile(path.join(process.cwd(), "..", "app", "dist", "app", "index.html"));
+		res.sendFile(path.join(process.cwd(), "..", "App", "dist", "app", "index.html"));
 	} catch (err) {
 		console.log(err);
 	}
