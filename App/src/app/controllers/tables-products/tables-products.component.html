@@ -1,0 +1,21 @@
+<div id="main-div" *ngIf="saftFile" class="saftFiles">
+  <div id="products-details" class="details-div">
+    <h3 class="title">Products:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Group</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{product.ProductCode[0]}}</td>
+          <td>{{product.ProductGroup[0]}}</td>
+          <td>{{product.ProductDescription[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
