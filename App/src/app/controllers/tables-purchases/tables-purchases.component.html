@@ -1,0 +1,25 @@
+<div id="main-div" *ngIf="saftFile" class="saftFiles">
+  <div id="purchases-details" class="details-div">
+    <h3 class="title">Purchases:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Date</th>
+          <th>Source ID</th>
+          <th>Description</th>
+          <th>Doc Archival Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let purchase of purchases">
+          <td>{{purchase.TransactionID[0]}}</td>
+          <td>{{purchase.TransactionDate[0]}}</td>
+          <td>{{purchase.SourceID[0]}}</td>
+          <td>{{purchase.Description[0]}}</td>
+          <td>{{purchase.DocArchivalNumber[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
