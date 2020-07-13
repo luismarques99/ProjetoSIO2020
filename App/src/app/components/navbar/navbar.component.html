@@ -1,14 +1,32 @@
 <header class="header">
 
-  <div class="right-header">
+  <div class="left-header">
     <div>
       <a routerLink="/">Home</a>
     </div>
   </div>
 
-  <div class="left-header">
+  <div class="right-header">
     <div>
       <a routerLink="/dashboard">Dashboard</a>
+    </div>
+
+    <div class="right-header-component dropdown">
+      <a role="button">Tables</a>
+      <div class="dropdown-content">
+        <a routerLink="/tables/purchases">Purchases</a>
+        <a routerLink="/tables/sales">Sales</a>
+        <a routerLink="/tables/sales-invoices">Sales Invoices</a>
+        <a routerLink="/tables/accounts">Accounts</a>
+        <a routerLink="/tables/customers">Customers</a>
+        <a routerLink="/tables/suppliers">Suppliers</a>
+        <a routerLink="/tables/products">Products</a>
+        <a routerLink="/tables/taxes">Taxes</a>
+      </div>
+    </div>
+
+    <div class="right-header-component">
+      <a routerLink="/about">About</a>
     </div>
   </div>
 
