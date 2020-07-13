@@ -1,0 +1,25 @@
+<div id="main-div" *ngIf="saftFile" class="saftFiles">
+  <div id="taxes-details" class="details-div">
+    <h3 class="title">Taxes:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Country Region</th>
+          <th>Code</th>
+          <th>Description</th>
+          <th>Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let tax of taxes">
+          <td>{{tax.TaxType[0]}}</td>
+          <td>{{tax.TaxCountryRegion[0]}}</td>
+          <td>{{tax.TaxCode[0]}}</td>
+          <td>{{tax.Description[0]}}</td>
+          <td>{{tax.TaxPercentage[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
