@@ -1,0 +1,85 @@
+<div id="main-div" *ngIf="saftFile" class="saftFiles">
+  <div id="sales-invoices-details" class="details-div">
+    <h3 class="title">Sales Invoices:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Type</th>
+          <th>Source ID</th>
+          <th>Date</th>
+          <th>Customer ID</th>
+          <th>Shipping Date</th>
+          <th>Shipping Address</th>
+          <th>Delivering Date</th>
+          <th>Delivering Address</th>
+          <th>Subtotal</th>
+          <th>Taxes</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let saleInvoice of salesInvoices">
+          <td>{{saleInvoice.InvoiceNo[0]}}</td>
+          <td>{{saleInvoice.InvoiceType[0]}}</td>
+          <td>{{saleInvoice.SourceID[0]}}</td>
+          <td>{{saleInvoice.SystemEntryDate[0]}}</td>
+          <td>{{saleInvoice.CustomerID[0]}}</td>
+          <td>{{saleInvoice.ShipTo[0].DeliveryDate[0]}}</td>
+          <td>
+            {{saleInvoice.ShipTo[0].Address[0].AddressDetail[0]}}
+            <br />
+            {{saleInvoice.ShipTo[0].Address[0].PostalCode[0]}},
+            {{saleInvoice.ShipTo[0].Address[0].City[0]}} - {{saleInvoice.ShipTo[0].Address[0].Country[0]}}
+          </td>
+          <td>{{saleInvoice.ShipFrom[0].DeliveryDate[0]}}</td>
+          <td>
+            {{saleInvoice.ShipFrom[0].Address[0].AddressDetail[0]}}
+            <br />
+            {{saleInvoice.ShipFrom[0].Address[0].PostalCode[0]}},
+            {{saleInvoice.ShipFrom[0].Address[0].City[0]}} - {{saleInvoice.ShipFrom[0].Address[0].Country[0]}}
+          </td>
+          <td>{{saleInvoice.DocumentTotals[0].NetTotal[0]}}</td>
+          <td>{{saleInvoice.DocumentTotals[0].TaxPayable[0]}}</td>
+          <td>{{saleInvoice.DocumentTotals[0].GrossTotal[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="sales-invoices-detailed-details" class="details-div">
+    <h3 class="title">Sales Invoices Details:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Invoice ID</th>
+          <th>Line No</th>
+          <th>Prod Code</th>
+          <th>Prod Description</th>
+          <th>Quantity</th>
+          <th>Measure Unit</th>
+          <th>Unit Price</th>
+          <th>Total</th>
+          <th>Tax</th>
+          <th>Tax Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let saleInvoice of salesInvoices">
+          <tr *ngFor="let line of saleInvoice.Line">
+            <td>{{saleInvoice.InvoiceNo[0]}}</td>
+            <td>{{line.LineNumber[0]}}</td>
+            <td>{{line.ProductCode[0]}}</td>
+            <td>{{line.ProductDescription[0]}}</td>
+            <td>{{line.Quantity[0]}}</td>
+            <td>{{line.UnitOfMeasure[0]}}</td>
+            <td class="number-line">{{line.UnitPrice[0]}}</td>
+            <td class="number-line">{{line.CreditAmount[0]}}</td>
+            <td class="number-line">{{line.Tax[0].TaxPercentage[0]}}</td>
+            <td>{{line.Tax[0].TaxType[0]}}</td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+</div>
