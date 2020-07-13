@@ -6,12 +6,12 @@ body{
 
 ::-webkit-scrollbar{
   background-color: #e5d5bc;
-  box-shadow: inset 0 0 5px black;
+  box-shadow: inset 0 0 5px #000000;
 }
 
 ::-webkit-scrollbar-thumb{
   background-color: #ff9900;
-  box-shadow: inset 0 0 5px black;
+  box-shadow: inset 0 0 5px #000000;
 }
 
 ::-webkit-scrollbar-thumb:hover{
