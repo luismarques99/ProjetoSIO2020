@@ -1,0 +1,47 @@
+<div id="main-div" *ngIf="saftFile" class="saftFiles">
+  <div id="suppliers-details" class="details-div">
+    <h3 class="title">Suppliers:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Account ID</th>
+          <th>NIF</th>
+          <th>Name</th>
+          <th>Billing Address</th>
+          <th>Shipping Address</th>
+          <th>Telephone</th>
+          <th>Website</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let supplier of suppliers">
+          <td>{{supplier.SupplierID[0]}}</td>
+          <td class="number-line">{{supplier.AccountID[0]}}</td>
+          <td class="number-line">{{supplier.SupplierTaxID[0]}}</td>
+          <td>{{supplier.CompanyName[0]}}</td>
+          <td>
+            {{supplier.BillingAddress[0].AddressDetail[0]}}
+            <br />
+            {{supplier.BillingAddress[0].PostalCode[0]}},
+            {{supplier.BillingAddress[0].City[0]}}
+            <br />
+            {{supplier.BillingAddress[0].Region[0]}},
+            {{supplier.BillingAddress[0].Country[0]}}
+          </td>
+          <td>
+            {{supplier.ShipFromAddress[0].AddressDetail[0]}}
+            <br />
+            {{supplier.ShipFromAddress[0].PostalCode[0]}},
+            {{supplier.ShipFromAddress[0].City[0]}}
+            <br />
+            {{supplier.ShipFromAddress[0].Region[0]}},
+            {{supplier.ShipFromAddress[0].Country[0]}}
+          </td>
+          <td class="number-line">{{supplier.Telephone[0]}}</td>
+          <td>{{supplier.Website[0]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
