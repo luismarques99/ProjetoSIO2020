@@ -19,7 +19,47 @@ Projeto realizado na época de recurso de 2020 no âmbito da unidade curricular 
 
 ## Visão Geral
 
-Visão geral do projeto
+### Home page
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Home.png)
+
+### Dashboard page
+
+#### Details
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Details.png)
+
+#### Purchases
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Purchases.png)
+
+#### Sales
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Sales.png)
+
+#### Sales Invoices
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_SalesInvoices.png)
+
+#### Accounts
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Accounts.png)
+
+#### Customers
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Customers.png)
+
+#### Suppliers
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Suppliers.png)
+
+#### Products
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Products.png)
+
+#### Taxes
+
+![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Taxes.png)
 
 ## Ferramentas
 
