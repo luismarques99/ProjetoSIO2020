@@ -1,36 +1,4 @@
 <div id="main-div" *ngIf="saftFile" class="saftFiles">
-  <div id="company-details" class="details-div">
-    <h3 class="title">{{saftFile.data.Header[0].CompanyName[0]}} Details:</h3>
-    <div class="detail"><span class="detail-span">NIF: </span>{{saftFile.data.Header[0].TaxRegistrationNumber[0]}}</div>
-    <div class="detail"><span class="detail-span">Telephone: </span>{{saftFile.data.Header[0].Telephone[0]}}</div>
-    <div class="detail"><span class="detail-span">Fax: </span>{{saftFile.data.Header[0].Fax[0]}}</div>
-    <div class="detail"><span class="detail-span">Email: </span>{{saftFile.data.Header[0].Email[0]}}</div>
-    <div class="detail"><span class="detail-span">Website: </span><a href="/">{{saftFile.data.Header[0].Website[0]}}</a>
-    </div>
-    <div id="detail-address" class="detail">
-      <span class="detail-span">Address:</span>
-      <div style="margin-left: 5px;">
-        {{saftFile.data.Header[0].CompanyAddress[0].StreetName[0]}},
-        {{saftFile.data.Header[0].CompanyAddress[0].BuildingNumber[0]}}
-        <br />
-        {{saftFile.data.Header[0].CompanyAddress[0].PostalCode[0]}},
-        {{saftFile.data.Header[0].CompanyAddress[0].City[0]}}
-        <br />
-        {{saftFile.data.Header[0].CompanyAddress[0].Region[0]}},
-        {{saftFile.data.Header[0].CompanyAddress[0].Country[0]}}
-      </div>
-    </div>
-  </div>
-
-  <div id="saftfile-details" class="details-div">
-    <h3 class="title">SaftPT Details:</h3>
-    <div class="detail"><span class="detail-span">Fiscal year: </span>{{saftFile.data.Header[0].FiscalYear[0]}}</div>
-    <div class="detail"><span class="detail-span">Start date: </span>{{saftFile.data.Header[0].StartDate[0]}}</div>
-    <div class="detail"><span class="detail-span">End date: </span>{{saftFile.data.Header[0].EndDate[0]}}</div>
-    <div class="detail"><span class="detail-span">Currency: </span>{{saftFile.data.Header[0].CurrencyCode[0]}}</div>
-    <div class="detail"><span class="detail-span">Created in: </span>{{saftFile.data.Header[0].DateCreated[0]}}</div>
-  </div>
-
   <div class="details-div">
     <div class="total-values-div">
       <h3 class="total-values-title">Total Debit: </h3>
