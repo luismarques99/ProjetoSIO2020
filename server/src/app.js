@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 
@@ -18,10 +19,14 @@ app.use(express.json());
 
 app.use("/api/v1", cors(), apiRouter);
 
-app.use(express.static(`${process.cwd()}/../app/dist/app`));
+app.use(express.static(path.join(process.cwd(), "..", "app", "dist", "app")));
 
-app.get("/", (req, res) => {
-	res.sendFile(`/../app/dist/app/index.html`);
+app.get("/*", (req, res) => {
+	try {
+		res.sendFile(path.join(process.cwd(), "..", "app", "dist", "app", "index.html"));
+	} catch (err) {
+		console.log(err);
+	}
 });
 
 app.listen(PORT, () => {
