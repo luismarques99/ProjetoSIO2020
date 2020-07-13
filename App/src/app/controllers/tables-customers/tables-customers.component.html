@@ -1,0 +1,50 @@
+<div id="main-div" *ngIf="saftFile" class="saftFiles">
+  <div id="customers-details" class="details-div">
+    <h3 class="title">Customers:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Account ID</th>
+          <th>NIF</th>
+          <th>Name</th>
+          <th>Billing Address</th>
+          <th>Shipping Address</th>
+          <th>Telephone</th>
+          <th>Website</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let customer of customers">
+          <td>{{customer.CustomerID[0]}}</td>
+          <td class="number-line">{{customer.AccountID[0]}}</td>
+          <td class="number-line">{{customer.CustomerTaxID[0]}}</td>
+          <td>{{customer.CompanyName[0]}}</td>
+          <td *ngIf="customer.BillingAddress[0].Region != undefined; else elseBlock">
+            {{customer.BillingAddress[0].AddressDetail[0]}}
+            <br />
+            {{customer.BillingAddress[0].PostalCode[0]}},
+            {{customer.BillingAddress[0].City[0]}}
+            <br />
+            {{customer.BillingAddress[0].Region[0]}},
+            {{customer.BillingAddress[0].Country[0]}}
+          </td>
+          <td *ngIf="customer.ShipToAddress[0].Region != undefined; else elseBlock">
+            {{customer.ShipToAddress[0].AddressDetail[0]}}
+            <br />
+            {{customer.ShipToAddress[0].PostalCode[0]}},
+            {{customer.ShipToAddress[0].City[0]}}
+            <br />
+            {{customer.ShipToAddress[0].Region[0]}},
+            {{customer.ShipToAddress[0].Country[0]}}
+          </td>
+          <td class="number-line" *ngIf="customer.Telephone != undefined; else elseBlock">{{customer.Telephone[0]}}</td>
+          <td *ngIf="customer.Website != undefined; else elseBlock">{{customer.Website[0]}}</td>
+          <ng-template #elseBlock>
+            <td>Na</td>
+          </ng-template>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
