@@ -15,7 +15,7 @@ export class TablesSalesInvoicesComponent implements OnInit {
   constructor(public rest: RestService) { }
 
   ngOnInit(): void {
-    this.rest.getSaftFile().subscribe((data: {}) => {
+    this.rest.getCurrentYearSaftFile().subscribe((data: {}) => {
       console.log(data);
       this.saftFile = data;
       this.sales = this.saftFile.data.GeneralLedgerEntries[0].Journal[1].Transaction;

@@ -1,0 +1,822 @@
+{
+  "AuditFile": {
+    "Header": [
+      {
+        "AuditFileVersion": ["1.04_01"],
+        "CompanyID": ["506426670"],
+        "TaxRegistrationNumber": ["506426670"],
+        "TaxAccountingBasis": ["I"],
+        "CompanyName": ["Tech4You"],
+        "CompanyAddress": [
+          {
+            "BuildingNumber": ["857"],
+            "StreetName": ["Rua do Curral"],
+            "AddressDetail": ["Rua do Curral, 857"],
+            "City": ["Margaride"],
+            "PostalCode": ["4610-156"],
+            "Region": ["Porto"],
+            "Country": ["PT"]
+          }
+        ],
+        "FiscalYear": ["2019"],
+        "StartDate": ["2019-01-01"],
+        "EndDate": ["2019-12-31"],
+        "CurrencyCode": ["EUR"],
+        "DateCreated": ["2020-07-16"],
+        "TaxEntity": ["Sede"],
+        "ProductCompanyTaxID": ["503140600"],
+        "SoftwareCertificateNumber": ["0030"],
+        "ProductID": ["ERP v750/PRIMAVERA Business Software Solutions"],
+        "ProductVersion": ["09.1507.1039"],
+        "Telephone": ["255314002"],
+        "Fax": ["255314120"],
+        "Email": ["geral@tech4you.com"],
+        "Website": ["www.tech4you.com"]
+      }
+    ],
+    "MasterFiles": [
+      {
+        "GeneralLedgerAccounts": [
+          {
+            "TaxonomyReference": ["S"],
+            "Account": [
+              {
+                "AccountID": ["21"],
+                "AccountDescription": ["Clientes"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19667.70"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GR"]
+              },
+              {
+                "AccountID": ["211"],
+                "AccountDescription": ["Clientes c/c"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19667.70"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["21"]
+              },
+              {
+                "AccountID": ["2111"],
+                "AccountDescription": ["Clientes gerais"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19667.70"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["211"]
+              },
+              {
+                "AccountID": ["21111"],
+                "AccountDescription": ["Clientes - gr - mercado nacional"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19667.70"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["2111"]
+              },
+              {
+                "AccountID": ["211110002"],
+                "AccountDescription": ["Worten"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19667.70"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GM"],
+                "GroupingCode": ["21111"],
+                "TaxonomyCode": ["10"]
+              },
+              {
+                "AccountID": ["22"],
+                "AccountDescription": ["Fornecedores"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["24230.61"],
+                "GroupingCategory": ["GR"]
+              },
+              {
+                "AccountID": ["221"],
+                "AccountDescription": ["Fornecedores c/c"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["24230.61"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["22"]
+              },
+              {
+                "AccountID": ["2211"],
+                "AccountDescription": ["Fornecedores gerais"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["24230.61"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["221"]
+              },
+              {
+                "AccountID": ["22111"],
+                "AccountDescription": ["Fornecedores - gr - mercado nacional"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["24230.61"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["2211"]
+              },
+              {
+                "AccountID": ["221110001"],
+                "AccountDescription": ["Asus"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["24230.61"],
+                "GroupingCategory": ["GM"],
+                "GroupingCode": ["22111"],
+                "TaxonomyCode": ["37"]
+              },
+              {
+                "AccountID": ["24"],
+                "AccountDescription": ["Estado e outros entes p�blicos"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GR"]
+              },
+              {
+                "AccountID": ["243"],
+                "AccountDescription": [
+                  "Imposto sobre o valor acrescentado (IVA)"
+                ],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["24"]
+              },
+              {
+                "AccountID": ["2432"],
+                "AccountDescription": ["Iva - Dedut�vel"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["243"]
+              },
+              {
+                "AccountID": ["24321"],
+                "AccountDescription": ["Exist�ncias"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["2432"]
+              },
+              {
+                "AccountID": ["243211"],
+                "AccountDescription": ["Exist�ncias Continente"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["24321"]
+              },
+              {
+                "AccountID": ["2432113"],
+                "AccountDescription": ["Ex. - Taxa Normal"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["243211"]
+              },
+              {
+                "AccountID": ["243211323"],
+                "AccountDescription": ["Ex. - Taxa Normal-Tx.23%"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["2432113"]
+              },
+              {
+                "AccountID": ["2432113231"],
+                "AccountDescription": ["Ex. - Tx. Nm. - Mercado Nacional"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["243211323"]
+              },
+              {
+                "AccountID": ["24321132311"],
+                "AccountDescription": ["Ex. Tx. Nm.- MN-TT/Dedut�vel"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["4530.93"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GM"],
+                "GroupingCode": ["2432113231"],
+                "TaxonomyCode": ["74"]
+              },
+              {
+                "AccountID": ["2433"],
+                "AccountDescription": ["Iva - Liquidado"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["243"]
+              },
+              {
+                "AccountID": ["24331"],
+                "AccountDescription": ["Operacoes Gerais"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["2433"]
+              },
+              {
+                "AccountID": ["243311"],
+                "AccountDescription": ["Iva Liq. - Vendas"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["24331"]
+              },
+              {
+                "AccountID": ["2433111"],
+                "AccountDescription": ["Iva Liq. - Vendas-Continente"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["243311"]
+              },
+              {
+                "AccountID": ["24331113"],
+                "AccountDescription": ["Iva Liq. - Taxa Normal"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["2433111"]
+              },
+              {
+                "AccountID": ["2433111323"],
+                "AccountDescription": ["Iva Liq. - Taxa Normal-Tx.23%"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["24331113"]
+              },
+              {
+                "AccountID": ["24331113231"],
+                "AccountDescription": ["Iva Liq.- Tx. Nm.- Mercado Nacional"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["3677.70"],
+                "GroupingCategory": ["GM"],
+                "GroupingCode": ["2433111323"],
+                "TaxonomyCode": ["75"]
+              },
+              {
+                "AccountID": ["31"],
+                "AccountDescription": ["Compras"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19699.68"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GR"]
+              },
+              {
+                "AccountID": ["311"],
+                "AccountDescription": ["Mercadorias"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19699.68"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["31"]
+              },
+              {
+                "AccountID": ["3111"],
+                "AccountDescription": ["Compras-merc.-mercado nacional"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["19699.68"],
+                "ClosingCreditBalance": ["0.00"],
+                "GroupingCategory": ["GM"],
+                "GroupingCode": ["311"],
+                "TaxonomyCode": ["156"]
+              },
+              {
+                "AccountID": ["71"],
+                "AccountDescription": ["Vendas"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["15990.00"],
+                "GroupingCategory": ["GR"]
+              },
+              {
+                "AccountID": ["711"],
+                "AccountDescription": ["Mercadorias"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["15990.00"],
+                "GroupingCategory": ["GA"],
+                "GroupingCode": ["71"]
+              },
+              {
+                "AccountID": ["7111"],
+                "AccountDescription": ["Vendas-merc.-mercado nacional"],
+                "OpeningDebitBalance": ["0.00"],
+                "OpeningCreditBalance": ["0.00"],
+                "ClosingDebitBalance": ["0.00"],
+                "ClosingCreditBalance": ["15990.00"],
+                "GroupingCategory": ["GM"],
+                "GroupingCode": ["711"],
+                "TaxonomyCode": ["506"]
+              }
+            ]
+          }
+        ],
+        "Customer": [
+          {
+            "CustomerID": ["Consumidor final"],
+            "AccountID": ["Desconhecido"],
+            "CustomerTaxID": ["999999990"],
+            "CompanyName": ["Consumidor final"],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Desconhecido"],
+                "City": ["Desconhecido"],
+                "PostalCode": ["Desconhecido"],
+                "Country": ["Desconhecido"]
+              }
+            ],
+            "ShipToAddress": [
+              {
+                "AddressDetail": ["Desconhecido"],
+                "City": ["Desconhecido"],
+                "PostalCode": ["Desconhecido"],
+                "Country": ["Desconhecido"]
+              }
+            ],
+            "SelfBillingIndicator": ["0"]
+          },
+          {
+            "CustomerID": ["PT509045200_C"],
+            "AccountID": ["211110002"],
+            "CustomerTaxID": ["509045200"],
+            "CompanyName": ["Worten"],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Senhora da Hora"],
+                "City": ["Sara Afonso"],
+                "PostalCode": ["4460-851"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipToAddress": [
+              {
+                "AddressDetail": ["Senhora da Hora"],
+                "City": ["Sara Afonso"],
+                "PostalCode": ["4460-851"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 229 571 300"],
+            "Fax": ["+351 229 571 301"],
+            "Website": ["www.wortennorteshop.pt"],
+            "SelfBillingIndicator": ["0"]
+          }
+        ],
+        "Supplier": [
+          {
+            "SupplierID": ["507501055_F"],
+            "AccountID": ["221110001"],
+            "SupplierTaxID": ["507501055"],
+            "CompanyName": ["Asus"],
+            "BillingAddress": [
+              {
+                "AddressDetail": ["Rua Fran�ois Guichard"],
+                "City": ["Bessa"],
+                "PostalCode": ["4100-012"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "ShipFromAddress": [
+              {
+                "AddressDetail": ["Rua Fran�ois Guichard"],
+                "City": ["Bessa"],
+                "PostalCode": ["4100-012"],
+                "Region": ["Porto"],
+                "Country": ["PT"]
+              }
+            ],
+            "Telephone": ["+351 505 677 139"],
+            "Fax": ["+351 505 678 128"],
+            "Website": ["www.asussupport.com.pt"],
+            "SelfBillingIndicator": ["0"]
+          }
+        ],
+        "Product": [
+          {
+            "ProductType": ["P"],
+            "ProductCode": ["A00021"],
+            "ProductGroup": ["Portateis"],
+            "ProductDescription": ["ROG Zephyrus G14"],
+            "ProductNumberCode": ["A00021"]
+          },
+          {
+            "ProductType": ["O"],
+            "ProductCode": ["Especial"],
+            "ProductGroup": ["Sem fam�lia"],
+            "ProductDescription": ["Linha especial"],
+            "ProductNumberCode": ["Especial"]
+          }
+        ],
+        "TaxTable": [
+          {
+            "TaxTableEntry": [
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isenta"],
+                "TaxPercentage": ["0.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["4.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["RED"],
+                "Description": ["Reduzida"],
+                "TaxPercentage": ["5.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["RED"],
+                "Description": ["Reduzida"],
+                "TaxPercentage": ["6.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["9.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["INT"],
+                "Description": ["Interm�dia"],
+                "TaxPercentage": ["12.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["INT"],
+                "Description": ["Interm�dia"],
+                "TaxPercentage": ["13.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["15.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["22.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["NOR"],
+                "Description": ["Normal"],
+                "TaxPercentage": ["23.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["23.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isenta"],
+                "TaxPercentage": ["0.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["4.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["9.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-AC"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["16.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isenta"],
+                "TaxPercentage": ["0.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["5.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["12.00"]
+              },
+              {
+                "TaxType": ["IVA"],
+                "TaxCountryRegion": ["PT-MA"],
+                "TaxCode": ["OUT"],
+                "Description": ["Outras"],
+                "TaxPercentage": ["22.00"]
+              },
+              {
+                "TaxType": ["IS"],
+                "TaxCountryRegion": ["PT"],
+                "TaxCode": ["ISE"],
+                "Description": ["Isento"],
+                "TaxPercentage": ["0.00"]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "GeneralLedgerEntries": [
+      {
+        "NumberOfEntries": ["2"],
+        "TotalDebit": ["43898.31"],
+        "TotalCredit": ["43898.31"],
+        "Journal": [
+          {
+            "JournalID": ["00041"],
+            "Description": ["Compras - MN"],
+            "Transaction": [
+              {
+                "TransactionID": ["2019-01-12 00041 10001"],
+                "Period": ["1"],
+                "TransactionDate": ["2019-01-12"],
+                "SourceID": ["estg"],
+                "Description": ["VFA N� 1/C"],
+                "DocArchivalNumber": ["10001"],
+                "TransactionType": ["N"],
+                "GLPostingDate": ["2020-07-16"],
+                "Lines": [
+                  {
+                    "CreditLine": [
+                      {
+                        "RecordID": ["1"],
+                        "AccountID": ["221110001"],
+                        "SourceDocumentID": ["VFA C/1"],
+                        "SystemEntryDate": ["2020-07-16T10:50:22"],
+                        "Description": ["VFA N� 1/C"],
+                        "CreditAmount": ["24230.61"]
+                      }
+                    ],
+                    "DebitLine": [
+                      {
+                        "RecordID": ["2"],
+                        "AccountID": ["3111"],
+                        "SourceDocumentID": ["VFA C/1"],
+                        "SystemEntryDate": ["2020-07-16T10:50:22"],
+                        "Description": ["VFA N� 1/C"],
+                        "DebitAmount": ["19699.68"]
+                      },
+                      {
+                        "RecordID": ["3"],
+                        "AccountID": ["24321132311"],
+                        "SourceDocumentID": ["VFA C/1"],
+                        "SystemEntryDate": ["2020-07-16T10:50:22"],
+                        "Description": ["VFA N� 1/C"],
+                        "DebitAmount": ["4530.93"]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "JournalID": ["00051"],
+            "Description": ["Vendas - Cr�dito - MN"],
+            "Transaction": [
+              {
+                "TransactionID": ["2019-01-14 00051 10001"],
+                "Period": ["1"],
+                "TransactionDate": ["2019-01-14"],
+                "SourceID": ["estg"],
+                "Description": ["FA N� 1/C"],
+                "DocArchivalNumber": ["10001"],
+                "TransactionType": ["N"],
+                "GLPostingDate": ["2020-07-16"],
+                "Lines": [
+                  {
+                    "DebitLine": [
+                      {
+                        "RecordID": ["1"],
+                        "AccountID": ["211110002"],
+                        "SourceDocumentID": ["FA C/1"],
+                        "SystemEntryDate": ["2020-07-16T10:53:27"],
+                        "Description": ["FA N� 1/C"],
+                        "DebitAmount": ["19667.70"]
+                      }
+                    ],
+                    "CreditLine": [
+                      {
+                        "RecordID": ["2"],
+                        "AccountID": ["7111"],
+                        "SourceDocumentID": ["FA C/1"],
+                        "SystemEntryDate": ["2020-07-16T10:53:27"],
+                        "Description": ["FA N� 1/C"],
+                        "CreditAmount": ["15990.00"]
+                      },
+                      {
+                        "RecordID": ["3"],
+                        "AccountID": ["24331113231"],
+                        "SourceDocumentID": ["FA C/1"],
+                        "SystemEntryDate": ["2020-07-16T10:53:27"],
+                        "Description": ["FA N� 1/C"],
+                        "CreditAmount": ["3677.70"]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SourceDocuments": [
+      {
+        "SalesInvoices": [
+          {
+            "NumberOfEntries": ["1"],
+            "TotalDebit": ["0.00"],
+            "TotalCredit": ["15990.00"],
+            "Invoice": [
+              {
+                "InvoiceNo": ["FA C/1"],
+                "ATCUD": ["0"],
+                "DocumentStatus": [
+                  {
+                    "InvoiceStatus": ["N"],
+                    "InvoiceStatusDate": ["2020-07-16T10:53:25"],
+                    "SourceID": ["ESTG"],
+                    "SourceBilling": ["P"]
+                  }
+                ],
+                "Hash": [
+                  "L5UPNSuG4OWVMLK4k99SYIyvXYxgVk98RKxPvelOQg0BSRt4ShcBo3EShOyLEPjZWIFx1kaAlVkMSo7Om6c3T0EOKf7Y/KBvBYUMwKPxTMue1D37hLrbCX9ABszhR9SzcNgRsCm1A3AhNvK7dKhpC9iNsL/spGO7MNZlyIR4O8U="
+                ],
+                "HashControl": ["1"],
+                "Period": ["01"],
+                "InvoiceDate": ["2019-01-14"],
+                "InvoiceType": ["FT"],
+                "SpecialRegimes": [
+                  {
+                    "SelfBillingIndicator": ["0"],
+                    "CashVATSchemeIndicator": ["0"],
+                    "ThirdPartiesBillingIndicator": ["0"]
+                  }
+                ],
+                "SourceID": ["ESTG"],
+                "SystemEntryDate": ["2020-07-16T10:53:25"],
+                "TransactionID": ["2019-01-14 00051 10001"],
+                "CustomerID": ["PT509045200_C"],
+                "ShipTo": [
+                  {
+                    "DeliveryDate": ["2020-07-16"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Senhora da Hora"],
+                        "City": ["Sara Afonso"],
+                        "PostalCode": ["4460-851"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "ShipFrom": [
+                  {
+                    "DeliveryDate": ["2020-07-16"],
+                    "Address": [
+                      {
+                        "AddressDetail": ["Rua do Curral, 857 - 0"],
+                        "City": ["Margaride"],
+                        "PostalCode": ["4610-156"],
+                        "Country": ["PT"]
+                      }
+                    ]
+                  }
+                ],
+                "MovementStartTime": ["2020-07-16T10:55:00"],
+                "Line": [
+                  {
+                    "LineNumber": ["1"],
+                    "ProductCode": ["A00021"],
+                    "ProductDescription": ["ROG Zephyrus G14"],
+                    "Quantity": ["10"],
+                    "UnitOfMeasure": ["UN"],
+                    "UnitPrice": ["1599"],
+                    "TaxPointDate": ["2019-01-14"],
+                    "Description": ["ROG Zephyrus G14"],
+                    "CreditAmount": ["15990.00"],
+                    "Tax": [
+                      {
+                        "TaxType": ["IVA"],
+                        "TaxCountryRegion": ["PT"],
+                        "TaxCode": ["NOR"],
+                        "TaxPercentage": ["23.00"]
+                      }
+                    ],
+                    "SettlementAmount": ["0.00"]
+                  }
+                ],
+                "DocumentTotals": [
+                  {
+                    "TaxPayable": ["3677.70"],
+                    "NetTotal": ["15990.00"],
+                    "GrossTotal": ["19667.70"]
+                  }
+                ],
+                "WithholdingTax": [{ "WithholdingTaxAmount": ["0.00"] }]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

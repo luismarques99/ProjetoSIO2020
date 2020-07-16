@@ -25,7 +25,23 @@ export class RestService {
     return body || {};
   };
 
-  getSaftFile(): Observable<SaftFile> {
+  getCurrentYearSaftFile(): Observable<SaftFile> {
     return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f0dbbe7c932230c3cb52399`);
+  };
+
+  getOneYearBeforeSaftFile(): Observable<SaftFile> {
+    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f102d4abf5f110d58f31b79`);
+  };
+
+  getTwoYearsBeforeSaftFile(): Observable<SaftFile> {
+    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f103311bf5f110d58f31b7a`);
+  };
+
+  getThreeYearsBeforeSaftFile(): Observable<SaftFile> {
+    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f103325bf5f110d58f31b7b`);
+  };
+
+  getFourYearsBeforeSaftFile(): Observable<SaftFile> {
+    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f103331bf5f110d58f31b7c`);
   };
 }

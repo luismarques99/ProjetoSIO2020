@@ -11,7 +11,7 @@ a:hover {
   margin: 50px;
   margin-top: 0px;
   margin-left: 30px;
-  font-family: "Bitter", serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .details-div {
@@ -130,8 +130,8 @@ tr:nth-child(even) {
 .pie-chart {
   align-self: center;
   /* width: 400px; */
-  width: 25%;
-  height: 250px;
+  width: 27%;
+  height: 300px;
 }
 
 .bar-chart {
@@ -141,10 +141,13 @@ tr:nth-child(even) {
   height: 400px;
 }
 
+#customersRevenueChartContainer{
+  width: 65%;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 60px;
-  font-family: 'Comfortaa', cursive;
   font-weight: bold;
 }
 
