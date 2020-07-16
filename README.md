@@ -30,47 +30,85 @@ Projeto realizado na época de recurso de 2020 no âmbito da unidade curricular 
 
 ## Visão Geral
 
-### Home page
+### Home
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Home.png)
+![alt webapp_home](./docs/Prints/Webapp/01.Home.png)
 
-### Dashboard page
+### Dashboard
 
-#### Details
+![alt webapp_home](./docs/Prints/Webapp/02.Dashboards.png)
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Details.png)
+#### Business Transactions
+
+![alt webapp_home](./docs/Prints/Webapp/03.Dashboard_Business_Transactions.png)
+
+#### Product Sales
+
+![alt webapp_home](./docs/Prints/Webapp/04.Dashboard_Product_Sales.png)
+
+#### Sales Per Customer
+
+![alt webapp_home](./docs/Prints/Webapp/05.Dashboard_Sales_Per_Customer.png)
+
+#### 2020
+
+![alt webapp_home](./docs/Prints/Webapp/06.Dashboard_2020.png)
+
+#### 2019
+
+![alt webapp_home](./docs/Prints/Webapp/07.Dashboard_2019.png)
+
+#### 2018
+
+![alt webapp_home](./docs/Prints/Webapp/08.Dashboard_2018.png)
+
+#### 2017
+
+![alt webapp_home](./docs/Prints/Webapp/09.Dashboard_2017.png)
+
+#### 2016
+
+![alt webapp_home](./docs/Prints/Webapp/10.Dashboard_2016.png)
+
+### Archives
+
+![alt webapp_home](./docs/Prints/Webapp/11.Archives.png)
 
 #### Purchases
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Purchases.png)
+![alt webapp_home](./docs/Prints/Webapp/12.Archives_Purchases.png)
 
 #### Sales
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Sales.png)
+![alt webapp_home](./docs/Prints/Webapp/13.Archives_Sales.png)
 
 #### Sales Invoices
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_SalesInvoices.png)
+![alt webapp_home](./docs/Prints/Webapp/14.Archives_Sales_Invoices.png)
 
 #### Accounts
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Accounts.png)
+![alt webapp_home](./docs/Prints/Webapp/15.Archives_Accounts.png)
 
 #### Customers
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Customers.png)
+![alt webapp_home](./docs/Prints/Webapp/16.Archives_Customers.png)
 
 #### Suppliers
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Suppliers.png)
+![alt webapp_home](./docs/Prints/Webapp/17.Archives_Suppliers.png)
 
 #### Products
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Products.png)
+![alt webapp_home](./docs/Prints/Webapp/18.Archives_Products.png)
 
 #### Taxes
 
-![alt webapp_home](./docs/Prints/Webapp/Webapp_Dashboard_Taxes.png)
+![alt webapp_home](./docs/Prints/Webapp/19.Archives_Taxes.png)
+
+### About
+
+![alt webapp_home](./docs/Prints/Webapp/20.About.png)
 
 ## Ferramentas
 
