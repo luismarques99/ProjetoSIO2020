@@ -127,6 +127,11 @@ tr:nth-child(even) {
   border-bottom: 1px solid #2b2b2b;
 }
 
+#customers-div{
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+
 .pie-chart {
   align-self: center;
   /* width: 400px; */
