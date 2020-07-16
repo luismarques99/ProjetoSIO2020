@@ -26,6 +26,6 @@ export class RestService {
   };
 
   getSaftFile(): Observable<SaftFile> {
-    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f05dc60d07e6749f8560a6e`);
+    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f0dbbe7c932230c3cb52399`);
   };
 }

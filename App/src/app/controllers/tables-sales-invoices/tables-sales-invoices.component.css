@@ -1,14 +1,14 @@
 #main-div {
   margin: 30px;
   margin-top: 0px;
-  font-family: "Bitter", serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .details-div {
   margin-top: 70px;
 }
 
-div.saftFiles > div:first-child{
+div.saftFiles > div:first-child {
   margin-top: 30px;
 }
 
@@ -68,3 +68,13 @@ tr:nth-child(even) {
 .table-label-div {
   margin-right: 20px;
 }
+
+/* .empty-table-row {
+  color: #fff0d9;
+  background-color: #fff0d9;
+  border: 0px;
+}
+
+#info-table-row:nth-child(even) {
+  background-color: #ffd08a;
+} */

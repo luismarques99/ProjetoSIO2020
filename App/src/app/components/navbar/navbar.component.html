@@ -7,8 +7,15 @@
   </div>
 
   <div class="right-header">
-    <div class="right-header-component">
-      <a routerLink="/dashboard">Dashboard</a>
+    <div class="right-header-component dropdown">
+      <a role="button">Dashboard</a>
+      <div class="dropdown-content">
+        <a routerLink="/dashboard/current-year">{{saftFile.data.Header[0].FiscalYear[0]}}</a>
+        <a routerLink="/dashboard/one-year-before">{{saftFile.data.Header[0].FiscalYear[0] - 1}}</a>
+        <a routerLink="/dashboard/two-year-before">{{saftFile.data.Header[0].FiscalYear[0] - 2}}</a>
+        <a routerLink="/dashboard/three-year-before">{{saftFile.data.Header[0].FiscalYear[0] - 3}}</a>
+        <a routerLink="/dashboard/four-year-before">{{saftFile.data.Header[0].FiscalYear[0] - 4}}</a>
+      </div>
     </div>
 
     <div class="right-header-component dropdown">

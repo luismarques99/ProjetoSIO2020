@@ -3,7 +3,7 @@ const xml2js = require("xml2js");
 
 const parser = new xml2js.Parser();
 
-filename = "SAFT_100_01-01-2020_31-12-2020_v2";
+filename = "SAFT_100_01-01-2020_31-12-2020_v3";
 
 fs.readFile(`${filename}.xml`, (err, data) => {
 	parser.parseString(data, (err, result) => {

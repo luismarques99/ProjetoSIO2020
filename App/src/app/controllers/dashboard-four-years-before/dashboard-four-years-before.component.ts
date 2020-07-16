@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { RestService } from 'src/app/services/rest.service';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-dashboard-four-years-before',
+  templateUrl: './dashboard-four-years-before.component.html',
+  styleUrls: ['./dashboard-four-years-before.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class DashboardFourYearsBeforeComponent implements OnInit {
 
   saftFile: any;
 

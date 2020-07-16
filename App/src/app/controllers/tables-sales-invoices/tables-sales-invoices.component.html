@@ -65,8 +65,8 @@
         </tr>
       </thead>
       <tbody>
-        <ng-container *ngFor="let saleInvoice of salesInvoices">
-          <tr *ngFor="let line of saleInvoice.Line">
+        <ng-container *ngFor="let saleInvoice of salesInvoices" class="sale-invoice-table">
+          <tr *ngFor="let line of saleInvoice.Line" id="info-table-row">
             <td>{{saleInvoice.InvoiceNo[0]}}</td>
             <td>{{line.LineNumber[0]}}</td>
             <td>{{line.ProductCode[0]}}</td>
@@ -77,6 +77,18 @@
             <td class="number-line">{{line.CreditAmount[0]}}</td>
             <td class="number-line">{{line.Tax[0].TaxPercentage[0]}}</td>
             <td>{{line.Tax[0].TaxType[0]}}</td>
+          </tr>
+          <tr class="empty-table-row">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
           </tr>
         </ng-container>
       </tbody>

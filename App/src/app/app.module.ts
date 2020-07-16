@@ -16,6 +16,10 @@ import { TablesCustomersComponent } from './controllers/tables-customers/tables-
 import { TablesSuppliersComponent } from './controllers/tables-suppliers/tables-suppliers.component';
 import { TablesProductsComponent } from './controllers/tables-products/tables-products.component';
 import { TablesTaxesComponent } from './controllers/tables-taxes/tables-taxes.component';
+import { DashboardOneYearBeforeComponent } from './controllers/dashboard-one-year-before/dashboard-one-year-before.component';
+import { DashboardTwoYearsBeforeComponent } from './controllers/dashboard-two-years-before/dashboard-two-years-before.component';
+import { DashboardThreeYearsBeforeComponent } from './controllers/dashboard-three-years-before/dashboard-three-years-before.component';
+import { DashboardFourYearsBeforeComponent } from './controllers/dashboard-four-years-before/dashboard-four-years-before.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { TablesTaxesComponent } from './controllers/tables-taxes/tables-taxes.co
     TablesCustomersComponent,
     TablesSuppliersComponent,
     TablesProductsComponent,
-    TablesTaxesComponent
+    TablesTaxesComponent,
+    DashboardOneYearBeforeComponent,
+    DashboardTwoYearsBeforeComponent,
+    DashboardThreeYearsBeforeComponent,
+    DashboardFourYearsBeforeComponent
   ],
   imports: [
     BrowserModule,

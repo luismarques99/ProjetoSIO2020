@@ -1,13 +1,24 @@
-<div id="main-div" *ngIf="saftFile" class="saftFiles">
-  <div class="details-div">
-    <div class="total-values-div">
-      <h3 class="total-values-title">Total Debit: </h3>
-      <div id="debit-div">{{saftFile.data.GeneralLedgerEntries[0].TotalDebit[0]}}</div>
-    </div>
+<div id="year-marker">
+  {{saftFile.data.Header[0].FiscalYear[0]}}
+</div>
+<div id="main-div">
+  <h1 class="section-title">Business Transactions</h1>
+  <div class="chart-div">
+    <div id="salesPerTrimesterChartContainer" class="pie-chart"></div>
+    <div id="salesChartContainer" class="bar-chart"></div>
+    <!-- <div id="purchasesChartContainer" class="bar-chart"></div> -->
+  </div>
 
-    <div class="total-values-div">
-      <h3 class="total-values-title">Total Credit: </h3>
-      <div id="credit-div">{{saftFile.data.GeneralLedgerEntries[0].TotalCredit[0]}}</div>
-    </div>
+  <h1 class="section-title">Product Sales</h1>
+  <div class="chart-div">
+    <div id="productsCategorySoldRevenueChartContainer" class="pie-chart"></div>
+    <!-- <div id="productsSoldQuantityChartContainer" class="bar-chart"></div> -->
+    <div id="productsSoldRevenueChartContainer" class="bar-chart"></div>
+  </div>
+
+  <h1 class="section-title">Sales Per Customer</h1>
+  <div class="chart-div">
+    <div id="customersNumberOfPurchasesChartContainer" class="pie-chart"></div>
+    <div id="customersRevenueChartContainer" class="bar-chart"></div>
   </div>
 </div>
