@@ -60,7 +60,7 @@ export class DashboardOneYearBeforeComponent implements OnInit {
         },
         data: [{
           type: "doughnut",
-          startAngle: -70,
+          startAngle: 0,
           indexLabelFontSize: 10,
           yValueFormatString: "#,###.##€",
           dataPoints: (() => {
@@ -340,7 +340,7 @@ export class DashboardOneYearBeforeComponent implements OnInit {
           labelFontSize: 11
         },
         axisY: {
-          interval: 10000,
+          interval: 20000,
           title: "Revenue",
           titleFontSize: 15,
           labelFontSize: 12,
@@ -395,7 +395,7 @@ export class DashboardOneYearBeforeComponent implements OnInit {
         },
         data: [{
           type: "doughnut",
-          startAngle: 15,
+          startAngle: 0,
           indexLabelFontSize: 11,
           dataPoints: (() => {
             const points: any[] = [];
@@ -423,7 +423,7 @@ export class DashboardOneYearBeforeComponent implements OnInit {
           labelFontSize: 13
         },
         axisY: {
-          interval: 20000,
+          interval: 50000,
           title: "Revenue",
           titleFontSize: 15,
           labelFontSize: 12,

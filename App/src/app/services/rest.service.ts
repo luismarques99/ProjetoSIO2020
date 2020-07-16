@@ -30,7 +30,7 @@ export class RestService {
   };
 
   getOneYearBeforeSaftFile(): Observable<SaftFile> {
-    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f102d4abf5f110d58f31b79`);
+    return this.http.get<SaftFile>(`${endpoint}/saftFiles/5f105af72f0c260ab0a003a4`);
   };
 
   getTwoYearsBeforeSaftFile(): Observable<SaftFile> {
